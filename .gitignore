@@ -1,0 +1,11 @@
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Données
+data/
+logs/
+output/
+
+# Environnements locaux
+.env
