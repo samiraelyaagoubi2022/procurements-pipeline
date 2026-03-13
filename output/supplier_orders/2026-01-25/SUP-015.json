@@ -1,0 +1,52 @@
+{
+  "supplier_id": "SUP-015",
+  "supplier_name": "Maroc Distribution",
+  "order_date": "2026-01-25",
+  "contact_email": "service@marocdist.ma",
+  "contact_phone": "+212 522 878 899",
+  "lead_time_days": 1,
+  "items": [
+    {
+      "sku": "HARISSA-001",
+      "product_name": "Harissa Cap Bon 200g",
+      "category": "EPICERIE",
+      "quantity_ordered": 144,
+      "unit_price": 8.5,
+      "pack_size": 24,
+      "total_price": 1224.0
+    },
+    {
+      "sku": "OLIVE-001",
+      "product_name": "Olives Vertes 500g",
+      "category": "CONSERVES",
+      "quantity_ordered": 468,
+      "unit_price": 18.0,
+      "pack_size": 12,
+      "total_price": 8424.0
+    },
+    {
+      "sku": "THE-001",
+      "product_name": "Thé Sultan 200g",
+      "category": "EPICERIE",
+      "quantity_ordered": 340,
+      "unit_price": 18.0,
+      "pack_size": 20,
+      "total_price": 6120.0
+    },
+    {
+      "sku": "TOMATE-001",
+      "product_name": "Concentré Tomate 400g",
+      "category": "CONSERVES",
+      "quantity_ordered": 144,
+      "unit_price": 12.0,
+      "pack_size": 24,
+      "total_price": 1728.0
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "total_quantity": 1096,
+    "total_value": 17496.0,
+    "currency": "MAD"
+  }
+}

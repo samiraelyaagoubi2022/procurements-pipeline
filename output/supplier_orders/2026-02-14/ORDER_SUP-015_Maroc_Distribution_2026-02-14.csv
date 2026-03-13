@@ -1,0 +1,6 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+MIEL-001,Miel d'Oranger 500g,EPICERIE,610,12,60,65.0,39650.0,pot
+THE-001,Thé Sultan 200g,EPICERIE,270,20,100,18.0,4860.0,paquet
+SARDINE-001,Sardines Marocaines 125g,CONSERVES,320,48,240,9.0,2880.0,boîte
+SEL-001,Sel Fin 1kg,EPICERIE,540,20,100,4.0,2160.0,kg
+TOMATE-001,Concentré Tomate 400g,CONSERVES,180,24,144,12.0,2160.0,boîte

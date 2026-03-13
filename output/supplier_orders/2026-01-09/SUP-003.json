@@ -1,0 +1,34 @@
+{
+  "supplier_id": "SUP-003",
+  "supplier_name": "Lesieur Cristal",
+  "order_date": "2026-01-09",
+  "contact_email": "achat@lesieur.ma",
+  "contact_phone": "+212 522 556 677",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "HUILE-001",
+      "product_name": "Lesieur Cristal Huile 1L",
+      "category": "EPICERIE",
+      "quantity_ordered": 72,
+      "unit_price": 28.0,
+      "pack_size": 12,
+      "total_price": 2016.0
+    },
+    {
+      "sku": "HUILE-002",
+      "product_name": "Lesieur Olive Extra 1L",
+      "category": "EPICERIE",
+      "quantity_ordered": 300,
+      "unit_price": 85.0,
+      "pack_size": 6,
+      "total_price": 25500.0
+    }
+  ],
+  "summary": {
+    "total_items": 2,
+    "total_quantity": 372,
+    "total_value": 27516.0,
+    "currency": "MAD"
+  }
+}

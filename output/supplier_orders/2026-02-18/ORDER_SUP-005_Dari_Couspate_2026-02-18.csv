@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+PATES-003,Dari Pâtes Macaroni 500g,EPICERIE,630,20,100,7.0,4410.0,paquet
+PATES-002,Dari Vermicelles 500g,EPICERIE,60,20,100,6.5,390.0,paquet

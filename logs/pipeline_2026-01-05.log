@@ -1,0 +1,2045 @@
+2026-01-05 10:10:18 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:10:18 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 10:10:18 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:10:18 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-09
+2026-01-05 10:10:18 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 10:10:18 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:10:18 | INFO     | orchestrator | 
+2026-01-05 10:10:18 | INFO     | orchestrator | 
+2026-01-05 10:10:18 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 10:10:18 | INFO     | orchestrator | 
+2026-01-05 10:10:18 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-09 --num-orders 500
+2026-01-05 10:10:19 | INFO     | generate | 📅 Date: 2026-01-09
+2026-01-05 10:10:19 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 10:10:19 | INFO     | generate | 
+2026-01-05 10:10:19 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 10:10:20 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 10:10:20 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 10:10:20 | INFO     | generate | 
+2026-01-05 10:10:20 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 10:10:21 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 10:10:21 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-09/orders.json
+2026-01-05 10:10:21 | INFO     | generate | 
+2026-01-05 10:10:21 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 10:10:21 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 10:10:21 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-09/stock.csv
+2026-01-05 10:10:21 | INFO     | generate | 
+2026-01-05 10:10:21 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 10:10:21 | INFO     | generate |    • Commandes: 500
+2026-01-05 10:10:21 | INFO     | generate |    • Magasins: 8
+2026-01-05 10:10:21 | INFO     | generate |    • Items commandés: 3241
+2026-01-05 10:10:21 | INFO     | generate |    • Valeur totale: 683,713.50 MAD
+2026-01-05 10:10:21 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 10:10:21 | INFO     | generate | 
+2026-01-05 10:10:21 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:19 | [32mINFO    [0m | generate | 📅 Date: 2026-01-09
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:19 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:19 | [32mINFO    [0m | generate | 
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:19 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:20 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:20 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:20 | [32mINFO    [0m | generate | 
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:20 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-09/orders.json
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | 
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-09/stock.csv
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | 
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    • Items commandés: 3241
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    • Valeur totale: 683,713.50 MAD
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | 
+2026-01-05 10:10:21 | INFO     | orchestrator |    2026-01-05 10:10:21 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 10:10:21 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 10:10:21 | INFO     | orchestrator | 
+2026-01-05 10:10:21 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-09
+2026-01-05 10:10:27 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-09
+2026-01-05 10:10:27 | INFO     | ingest | 
+2026-01-05 10:10:27 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 10:10:34 | INFO     | ingest |    ✅ Répertoires créés
+2026-01-05 10:10:34 | INFO     | ingest | 
+2026-01-05 10:10:34 | INFO     | ingest | 📦 Copie des fichiers de commandes...
+2026-01-05 10:10:38 | INFO     | ingest |    ✅ orders.json → /raw/orders/2026-01-09/orders.json
+2026-01-05 10:10:38 | INFO     | ingest |    📊 1 fichier(s) de commandes copié(s)
+2026-01-05 10:10:38 | INFO     | ingest | 
+2026-01-05 10:10:38 | INFO     | ingest | 📊 Copie des fichiers de stock...
+2026-01-05 10:10:43 | INFO     | ingest |    ✅ stock.csv → /raw/stock/2026-01-09/stock.csv
+2026-01-05 10:10:43 | INFO     | ingest |    📊 1 fichier(s) de stock copié(s)
+2026-01-05 10:10:43 | INFO     | ingest | 
+2026-01-05 10:10:43 | INFO     | ingest | 🔍 Vérification dans HDFS...
+2026-01-05 10:10:53 | INFO     | ingest |    ✅ Fichier orders.json présent
+2026-01-05 10:10:53 | INFO     | ingest |    ✅ Fichier stock.csv présent
+2026-01-05 10:10:53 | INFO     | ingest | 
+2026-01-05 10:10:53 | INFO     | ingest | ✅ Ingestion terminée avec succès
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:27 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-09
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:27 | [32mINFO    [0m | ingest | 
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:27 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:34 | [32mINFO    [0m | ingest |    ✅ Répertoires créés
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:34 | [32mINFO    [0m | ingest | 
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:34 | [32mINFO    [0m | ingest | 📦 Copie des fichiers de commandes...
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:38 | [32mINFO    [0m | ingest |    ✅ orders.json → /raw/orders/2026-01-09/orders.json
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:38 | [32mINFO    [0m | ingest |    📊 1 fichier(s) de commandes copié(s)
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:38 | [32mINFO    [0m | ingest | 
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:38 | [32mINFO    [0m | ingest | 📊 Copie des fichiers de stock...
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:43 | [32mINFO    [0m | ingest |    ✅ stock.csv → /raw/stock/2026-01-09/stock.csv
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:43 | [32mINFO    [0m | ingest |    📊 1 fichier(s) de stock copié(s)
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:43 | [32mINFO    [0m | ingest | 
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:43 | [32mINFO    [0m | ingest | 🔍 Vérification dans HDFS...
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:53 | [32mINFO    [0m | ingest |    ✅ Fichier orders.json présent
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:53 | [32mINFO    [0m | ingest |    ✅ Fichier stock.csv présent
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:53 | [32mINFO    [0m | ingest | 
+2026-01-05 10:10:53 | INFO     | orchestrator |    2026-01-05 10:10:53 | [32mINFO    [0m | ingest | ✅ Ingestion terminée avec succès
+2026-01-05 10:10:53 | INFO     | orchestrator | ✅ Script terminé: 02_ingest_to_hdfs.py
+2026-01-05 10:10:53 | INFO     | orchestrator | 
+2026-01-05 10:10:53 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/03_aggregate_orders.py --date 2026-01-09
+2026-01-05 10:10:57 | INFO     | aggregate | 📊 Agrégation pour la date: 2026-01-09
+2026-01-05 10:10:57 | INFO     | aggregate | 
+2026-01-05 10:10:57 | INFO     | aggregate | 📋 Création de la table externe orders...
+2026-01-05 10:11:07 | WARNING  | aggregate |    ⚠️  Table orders déjà existante: HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:11:07 | INFO     | aggregate | 
+2026-01-05 10:11:07 | INFO     | aggregate | 🔢 Agrégation des commandes par SKU avec Trino...
+2026-01-05 10:11:16 | ERROR    | aggregate | ❌ Erreur Trino, utilisation du mode local...
+2026-01-05 10:11:16 | ERROR    | aggregate |    Raison: Execution failed on sql: 
+        SELECT 
+            item.sku,
+            SUM(item.quantity) as total_quantity,
+            COUNT(DISTINCT o.order_id) as num_orders,
+            COUNT(DISTINCT o.store_id) as num_stores,
+            AVG(item.quantity) as avg_quantity_per_order,
+            SUM(item.quantity * item.unit_price) as total_value
+        FROM 
+            hive.default.orders o
+            CROSS JOIN UNNEST(o.items) AS t(item)
+        WHERE 
+            o.order_date = '2026-01-09'
+        GROUP BY 
+            item.sku
+        ORDER BY 
+            total_quantity DESC
+        
+HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+unable to rollback
+2026-01-05 10:11:16 | INFO     | aggregate | 
+2026-01-05 10:11:16 | INFO     | aggregate | 📂 Chargement des commandes...
+2026-01-05 10:11:17 | INFO     | aggregate |    ✓ 500 commandes chargées
+2026-01-05 10:11:17 | INFO     | aggregate | 
+2026-01-05 10:11:17 | INFO     | aggregate | 🔢 Agrégation par SKU...
+2026-01-05 10:11:17 | INFO     | aggregate |    ✓ 39 SKUs agrégés
+2026-01-05 10:11:17 | INFO     | aggregate | 
+2026-01-05 10:11:17 | INFO     | aggregate | 💾 Sauvegarde des résultats...
+2026-01-05 10:11:17 | INFO     | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-01-09.csv
+2026-01-05 10:11:17 | INFO     | aggregate | 
+2026-01-05 10:11:17 | INFO     | aggregate | 📊 STATISTIQUES:
+2026-01-05 10:11:17 | INFO     | aggregate |    • SKUs: 39
+2026-01-05 10:11:17 | INFO     | aggregate |    • Quantité totale: 34,325
+2026-01-05 10:11:17 | INFO     | aggregate |    • Valeur totale: 683,713.50 MAD
+2026-01-05 10:11:17 | INFO     | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:10:57 | [32mINFO    [0m | aggregate | 📊 Agrégation pour la date: 2026-01-09
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:10:57 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:10:57 | [32mINFO    [0m | aggregate | 📋 Création de la table externe orders...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:07 | [33mWARNING [0m | aggregate |    ⚠️  Table orders déjà existante: HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:07 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:07 | [32mINFO    [0m | aggregate | 🔢 Agrégation des commandes par SKU avec Trino...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:16 | [31mERROR   [0m | aggregate | ❌ Erreur Trino, utilisation du mode local...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:16 | [31mERROR   [0m | aggregate |    Raison: Execution failed on sql: 
+2026-01-05 10:11:17 | INFO     | orchestrator |            SELECT 
+2026-01-05 10:11:17 | INFO     | orchestrator |                item.sku,
+2026-01-05 10:11:17 | INFO     | orchestrator |                SUM(item.quantity) as total_quantity,
+2026-01-05 10:11:17 | INFO     | orchestrator |                COUNT(DISTINCT o.order_id) as num_orders,
+2026-01-05 10:11:17 | INFO     | orchestrator |                COUNT(DISTINCT o.store_id) as num_stores,
+2026-01-05 10:11:17 | INFO     | orchestrator |                AVG(item.quantity) as avg_quantity_per_order,
+2026-01-05 10:11:17 | INFO     | orchestrator |                SUM(item.quantity * item.unit_price) as total_value
+2026-01-05 10:11:17 | INFO     | orchestrator |            FROM 
+2026-01-05 10:11:17 | INFO     | orchestrator |                hive.default.orders o
+2026-01-05 10:11:17 | INFO     | orchestrator |                CROSS JOIN UNNEST(o.items) AS t(item)
+2026-01-05 10:11:17 | INFO     | orchestrator |            WHERE 
+2026-01-05 10:11:17 | INFO     | orchestrator |                o.order_date = '2026-01-09'
+2026-01-05 10:11:17 | INFO     | orchestrator |            GROUP BY 
+2026-01-05 10:11:17 | INFO     | orchestrator |                item.sku
+2026-01-05 10:11:17 | INFO     | orchestrator |            ORDER BY 
+2026-01-05 10:11:17 | INFO     | orchestrator |                total_quantity DESC
+2026-01-05 10:11:17 | INFO     | orchestrator |    HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:11:17 | INFO     | orchestrator |    unable to rollback
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:16 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:16 | [32mINFO    [0m | aggregate | 📂 Chargement des commandes...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    ✓ 500 commandes chargées
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 🔢 Agrégation par SKU...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    ✓ 39 SKUs agrégés
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 💾 Sauvegarde des résultats...
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-01-09.csv
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 📊 STATISTIQUES:
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    • SKUs: 39
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    • Quantité totale: 34,325
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate |    • Valeur totale: 683,713.50 MAD
+2026-01-05 10:11:17 | INFO     | orchestrator |    2026-01-05 10:11:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:11:17 | INFO     | orchestrator | ✅ Script terminé: 03_aggregate_orders.py
+2026-01-05 10:11:17 | INFO     | orchestrator | 
+2026-01-05 10:11:17 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/04_calculate_demand.py --date 2026-01-09
+2026-01-05 10:11:18 | INFO     | calculate | 🧮 Calcul pour la date: 2026-01-09
+2026-01-05 10:11:18 | INFO     | calculate | 
+2026-01-05 10:11:18 | INFO     | calculate | 📂 Chargement des données agrégées...
+2026-01-05 10:11:18 | INFO     | calculate |    ✓ 39 SKUs chargés
+2026-01-05 10:11:18 | INFO     | calculate | 
+2026-01-05 10:11:18 | INFO     | calculate | 📂 Chargement des stocks...
+2026-01-05 10:11:18 | INFO     | calculate |    ✓ 39 SKUs en stock
+2026-01-05 10:11:18 | INFO     | calculate | 
+2026-01-05 10:11:18 | INFO     | calculate | 📂 Chargement des données maîtres...
+2026-01-05 10:11:19 | INFO     | calculate |    ✓ 39 produits
+2026-01-05 10:11:19 | INFO     | calculate |    ✓ 39 stocks de sécurité
+2026-01-05 10:11:19 | INFO     | calculate | 
+2026-01-05 10:11:19 | INFO     | calculate | 🔗 Consolidation des données...
+2026-01-05 10:11:19 | INFO     | calculate |    ✓ 39 lignes consolidées
+2026-01-05 10:11:19 | INFO     | calculate | 
+2026-01-05 10:11:19 | INFO     | calculate | 🧮 Calcul de la demande nette...
+2026-01-05 10:11:19 | INFO     | calculate |    ✓ 25 produits nécessitent une commande
+2026-01-05 10:11:19 | INFO     | calculate | 
+2026-01-05 10:11:19 | INFO     | calculate | 💾 Sauvegarde des résultats...
+2026-01-05 10:11:19 | INFO     | calculate |    ✓ Fichier: data/processed/net_demand_2026-01-09.csv
+2026-01-05 10:11:19 | INFO     | calculate | 
+2026-01-05 10:11:19 | INFO     | calculate | 📊 STATISTIQUES:
+2026-01-05 10:11:19 | INFO     | calculate |    • Produits à commander: 25
+2026-01-05 10:11:19 | INFO     | calculate |    • Quantité totale: 10,200
+2026-01-05 10:11:19 | INFO     | calculate |    • Valeur estimée: 202,758.00 MAD
+2026-01-05 10:11:19 | INFO     | calculate |    • Fournisseurs concernés: 14
+2026-01-05 10:11:19 | INFO     | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 🧮 Calcul pour la date: 2026-01-09
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 📂 Chargement des données agrégées...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate |    ✓ 39 SKUs chargés
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 📂 Chargement des stocks...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate |    ✓ 39 SKUs en stock
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:18 | [32mINFO    [0m | calculate | 📂 Chargement des données maîtres...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    ✓ 39 produits
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    ✓ 39 stocks de sécurité
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 🔗 Consolidation des données...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    ✓ 39 lignes consolidées
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 🧮 Calcul de la demande nette...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    ✓ 25 produits nécessitent une commande
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 💾 Sauvegarde des résultats...
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    ✓ Fichier: data/processed/net_demand_2026-01-09.csv
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 📊 STATISTIQUES:
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    • Produits à commander: 25
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    • Quantité totale: 10,200
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    • Valeur estimée: 202,758.00 MAD
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate |    • Fournisseurs concernés: 14
+2026-01-05 10:11:19 | INFO     | orchestrator |    2026-01-05 10:11:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:11:19 | INFO     | orchestrator | ✅ Script terminé: 04_calculate_demand.py
+2026-01-05 10:11:19 | INFO     | orchestrator | 
+2026-01-05 10:11:19 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/05_generate_orders.py --date 2026-01-09
+2026-01-05 10:11:20 | INFO     | generate_orders | 📝 Génération pour la date: 2026-01-09
+2026-01-05 10:11:20 | INFO     | generate_orders | 
+2026-01-05 10:11:20 | INFO     | generate_orders | 📂 Chargement de la demande nette...
+2026-01-05 10:11:20 | INFO     | generate_orders |    ✓ 25 lignes chargées
+2026-01-05 10:11:20 | INFO     | generate_orders | 
+2026-01-05 10:11:20 | INFO     | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ 15 fournisseurs
+2026-01-05 10:11:21 | INFO     | generate_orders | 
+2026-01-05 10:11:21 | INFO     | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-05 10:11:21 | INFO     | generate_orders | 
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-011 (Agropur)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 280
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 6,160.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-002 (Bimo)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 552
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 2,628.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-009 (Nestlé Maroc)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 400
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 12,800.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-015 (Maroc Distribution)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 6
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 2,088
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 23,940.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-007 (Oulmès)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 390
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 1,950.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-010 (Bel Maroc)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 780
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 11,700.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-003 (Lesieur Cristal)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 372
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 27,516.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-012 (Savola Maroc)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 276
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 13,248.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-014 (Procter & Gamble Maroc)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 556
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 52,820.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-005 (Dari Couspate)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 1,200
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 8,250.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-008 (Unilever Maghreb)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 1,200
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 19,968.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-006 (SBM Coca-Cola)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 114
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 1,254.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-004 (Cosumar)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 1,320
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 12,460.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    ✓ SUP-001 (Centrale Laitière)
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Quantité: 672
+2026-01-05 10:11:21 | INFO     | generate_orders |       • Valeur: 8,064.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders | 
+2026-01-05 10:11:21 | INFO     | generate_orders | 📊 RÉSUMÉ:
+2026-01-05 10:11:21 | INFO     | generate_orders |    • Commandes générées: 14
+2026-01-05 10:11:21 | INFO     | generate_orders |    • Valeur totale: 202,758.00 MAD
+2026-01-05 10:11:21 | INFO     | generate_orders |    • Répertoire: output/supplier_orders/2026-01-09
+2026-01-05 10:11:21 | INFO     | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders | 📝 Génération pour la date: 2026-01-09
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders | 📂 Chargement de la demande nette...
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders |    ✓ 25 lignes chargées
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:20 | [32mINFO    [0m | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ 15 fournisseurs
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-011 (Agropur)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 280
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 6,160.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-002 (Bimo)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 552
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 2,628.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-009 (Nestlé Maroc)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 400
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 12,800.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-015 (Maroc Distribution)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 6
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 2,088
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 23,940.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-007 (Oulmès)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 390
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 1,950.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-010 (Bel Maroc)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 780
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 11,700.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-003 (Lesieur Cristal)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 372
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 27,516.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-012 (Savola Maroc)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 276
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 13,248.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-014 (Procter & Gamble Maroc)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 556
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 52,820.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-005 (Dari Couspate)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 1,200
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 8,250.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-008 (Unilever Maghreb)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 1,200
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 19,968.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-006 (SBM Coca-Cola)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 114
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 1,254.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-004 (Cosumar)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 1,320
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 12,460.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    ✓ SUP-001 (Centrale Laitière)
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Quantité: 672
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |       • Valeur: 8,064.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 📊 RÉSUMÉ:
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    • Commandes générées: 14
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    • Valeur totale: 202,758.00 MAD
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders |    • Répertoire: output/supplier_orders/2026-01-09
+2026-01-05 10:11:21 | INFO     | orchestrator |    2026-01-05 10:11:21 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:11:21 | INFO     | orchestrator | ✅ Script terminé: 05_generate_orders.py
+2026-01-05 10:11:21 | INFO     | orchestrator | 
+2026-01-05 10:11:21 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/06_check_exceptions.py --date 2026-01-09
+2026-01-05 10:11:23 | INFO     | exceptions | 🔍 Vérification pour la date: 2026-01-09
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 📂 25 produits à commander
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-05 10:11:23 | INFO     | exceptions |    ✓ Aucune commande volumineuse
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-05 10:11:23 | WARNING  | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-05 10:11:23 | INFO     | exceptions |    ✓ Aucune rupture critique
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 🔎 Vérification des stocks bas...
+2026-01-05 10:11:23 | INFO     | exceptions |    ✓ Aucun stock critique
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-05 10:11:23 | INFO     | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-01-09.json
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-05 10:11:23 | INFO     | exceptions |    • Total: 1
+2026-01-05 10:11:23 | INFO     | exceptions |    • WARNING: 1
+2026-01-05 10:11:23 | INFO     | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 🔍 Vérification pour la date: 2026-01-09
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 📂 25 produits à commander
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    ✓ Aucune commande volumineuse
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [33mWARNING [0m | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    ✓ Aucune rupture critique
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 🔎 Vérification des stocks bas...
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    ✓ Aucun stock critique
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-01-09.json
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    • Total: 1
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions |    • WARNING: 1
+2026-01-05 10:11:23 | INFO     | orchestrator |    2026-01-05 10:11:23 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:11:23 | INFO     | orchestrator | ✅ Script terminé: 06_check_exceptions.py
+2026-01-05 10:11:23 | INFO     | orchestrator | 
+2026-01-05 10:11:23 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:11:23 | INFO     | orchestrator | ✅ PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-05 10:11:23 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:11:23 | INFO     | orchestrator | ⏱️  Durée totale: 65.03 secondes
+2026-01-05 10:11:23 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-09
+2026-01-05 10:11:23 | INFO     | orchestrator | 🕐 Heure de fin: 2026-01-05 10:11:23
+2026-01-05 10:11:23 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:11:23 | INFO     | orchestrator | 
+2026-01-05 10:37:49 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:49 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 10:37:49 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:49 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-10
+2026-01-05 10:37:49 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 10:37:49 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:49 | INFO     | orchestrator | 
+2026-01-05 10:37:49 | INFO     | orchestrator | 
+2026-01-05 10:37:49 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 10:37:49 | INFO     | orchestrator | 
+2026-01-05 10:37:49 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-10 --num-orders 500
+2026-01-05 10:37:52 | INFO     | generate | 📅 Date: 2026-01-10
+2026-01-05 10:37:52 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 10:37:52 | INFO     | generate | 
+2026-01-05 10:37:52 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 10:37:54 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 10:37:54 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 10:37:54 | INFO     | generate | 
+2026-01-05 10:37:54 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 10:37:56 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 10:37:56 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-10/orders.json
+2026-01-05 10:37:56 | INFO     | generate | 
+2026-01-05 10:37:56 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 10:37:57 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 10:37:57 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-10/stock.csv
+2026-01-05 10:37:57 | INFO     | generate | 
+2026-01-05 10:37:57 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 10:37:57 | INFO     | generate |    • Commandes: 500
+2026-01-05 10:37:57 | INFO     | generate |    • Magasins: 8
+2026-01-05 10:37:57 | INFO     | generate |    • Items commandés: 3262
+2026-01-05 10:37:57 | INFO     | generate |    • Valeur totale: 675,569.00 MAD
+2026-01-05 10:37:57 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 10:37:57 | INFO     | generate | 
+2026-01-05 10:37:57 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:52 | [32mINFO    [0m | generate | 📅 Date: 2026-01-10
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:52 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:52 | [32mINFO    [0m | generate | 
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:52 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:54 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:54 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:54 | [32mINFO    [0m | generate | 
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:54 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:56 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:56 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-10/orders.json
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:56 | [32mINFO    [0m | generate | 
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:56 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-10/stock.csv
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate | 
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    • Items commandés: 3262
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    • Valeur totale: 675,569.00 MAD
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate | 
+2026-01-05 10:37:57 | INFO     | orchestrator |    2026-01-05 10:37:57 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 10:37:57 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 10:37:57 | INFO     | orchestrator | 
+2026-01-05 10:37:57 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-10
+2026-01-05 10:38:12 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-10
+2026-01-05 10:38:12 | INFO     | ingest | 
+2026-01-05 10:38:12 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 10:38:26 | INFO     | ingest |    ✅ Répertoires créés
+2026-01-05 10:38:26 | INFO     | ingest | 
+2026-01-05 10:38:26 | INFO     | ingest | 📦 Copie des fichiers de commandes...
+2026-01-05 10:38:32 | INFO     | ingest |    ✅ orders.json → /raw/orders/2026-01-10/orders.json
+2026-01-05 10:38:32 | INFO     | ingest |    📊 1 fichier(s) de commandes copié(s)
+2026-01-05 10:38:32 | INFO     | ingest | 
+2026-01-05 10:38:32 | INFO     | ingest | 📊 Copie des fichiers de stock...
+2026-01-05 10:38:36 | INFO     | ingest |    ✅ stock.csv → /raw/stock/2026-01-10/stock.csv
+2026-01-05 10:38:36 | INFO     | ingest |    📊 1 fichier(s) de stock copié(s)
+2026-01-05 10:38:36 | INFO     | ingest | 
+2026-01-05 10:38:36 | INFO     | ingest | 🔍 Vérification dans HDFS...
+2026-01-05 10:38:43 | INFO     | ingest |    ✅ Fichier orders.json présent
+2026-01-05 10:38:43 | INFO     | ingest |    ✅ Fichier stock.csv présent
+2026-01-05 10:38:43 | INFO     | ingest | 
+2026-01-05 10:38:43 | INFO     | ingest | ✅ Ingestion terminée avec succès
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:12 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-10
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:12 | [32mINFO    [0m | ingest | 
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:12 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:26 | [32mINFO    [0m | ingest |    ✅ Répertoires créés
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:26 | [32mINFO    [0m | ingest | 
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:26 | [32mINFO    [0m | ingest | 📦 Copie des fichiers de commandes...
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:32 | [32mINFO    [0m | ingest |    ✅ orders.json → /raw/orders/2026-01-10/orders.json
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:32 | [32mINFO    [0m | ingest |    📊 1 fichier(s) de commandes copié(s)
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:32 | [32mINFO    [0m | ingest | 
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:32 | [32mINFO    [0m | ingest | 📊 Copie des fichiers de stock...
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:36 | [32mINFO    [0m | ingest |    ✅ stock.csv → /raw/stock/2026-01-10/stock.csv
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:36 | [32mINFO    [0m | ingest |    📊 1 fichier(s) de stock copié(s)
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:36 | [32mINFO    [0m | ingest | 
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:36 | [32mINFO    [0m | ingest | 🔍 Vérification dans HDFS...
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:43 | [32mINFO    [0m | ingest |    ✅ Fichier orders.json présent
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:43 | [32mINFO    [0m | ingest |    ✅ Fichier stock.csv présent
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:43 | [32mINFO    [0m | ingest | 
+2026-01-05 10:38:44 | INFO     | orchestrator |    2026-01-05 10:38:43 | [32mINFO    [0m | ingest | ✅ Ingestion terminée avec succès
+2026-01-05 10:38:44 | INFO     | orchestrator | ✅ Script terminé: 02_ingest_to_hdfs.py
+2026-01-05 10:38:44 | INFO     | orchestrator | 
+2026-01-05 10:38:44 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/03_aggregate_orders.py --date 2026-01-10
+2026-01-05 10:38:47 | INFO     | aggregate | 📊 Agrégation pour la date: 2026-01-10
+2026-01-05 10:38:47 | INFO     | aggregate | 
+2026-01-05 10:38:47 | INFO     | aggregate | 📋 Création de la table externe orders...
+2026-01-05 10:38:58 | WARNING  | aggregate |    ⚠️  Table orders déjà existante: HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:38:58 | INFO     | aggregate | 
+2026-01-05 10:38:58 | INFO     | aggregate | 🔢 Agrégation des commandes par SKU avec Trino...
+2026-01-05 10:39:09 | ERROR    | aggregate | ❌ Erreur Trino, utilisation du mode local...
+2026-01-05 10:39:09 | ERROR    | aggregate |    Raison: Execution failed on sql: 
+        SELECT 
+            item.sku,
+            SUM(item.quantity) as total_quantity,
+            COUNT(DISTINCT o.order_id) as num_orders,
+            COUNT(DISTINCT o.store_id) as num_stores,
+            AVG(item.quantity) as avg_quantity_per_order,
+            SUM(item.quantity * item.unit_price) as total_value
+        FROM 
+            hive.default.orders o
+            CROSS JOIN UNNEST(o.items) AS t(item)
+        WHERE 
+            o.order_date = '2026-01-10'
+        GROUP BY 
+            item.sku
+        ORDER BY 
+            total_quantity DESC
+        
+HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+unable to rollback
+2026-01-05 10:39:09 | INFO     | aggregate | 
+2026-01-05 10:39:09 | INFO     | aggregate | 📂 Chargement des commandes...
+2026-01-05 10:39:09 | INFO     | aggregate |    ✓ 500 commandes chargées
+2026-01-05 10:39:09 | INFO     | aggregate | 
+2026-01-05 10:39:09 | INFO     | aggregate | 🔢 Agrégation par SKU...
+2026-01-05 10:39:09 | INFO     | aggregate |    ✓ 39 SKUs agrégés
+2026-01-05 10:39:09 | INFO     | aggregate | 
+2026-01-05 10:39:09 | INFO     | aggregate | 💾 Sauvegarde des résultats...
+2026-01-05 10:39:09 | INFO     | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-01-10.csv
+2026-01-05 10:39:17 | INFO     | aggregate |    ✓ Upload HDFS: /processed/aggregated_orders/2026-01-10/aggregated_orders.csv
+2026-01-05 10:39:17 | INFO     | aggregate | 
+2026-01-05 10:39:17 | INFO     | aggregate | 📊 STATISTIQUES:
+2026-01-05 10:39:17 | INFO     | aggregate |    • SKUs: 39
+2026-01-05 10:39:17 | INFO     | aggregate |    • Quantité totale: 34,232
+2026-01-05 10:39:17 | INFO     | aggregate |    • Valeur totale: 675,569.00 MAD
+2026-01-05 10:39:17 | INFO     | aggregate | 
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:47 | [32mINFO    [0m | aggregate | 📊 Agrégation pour la date: 2026-01-10
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:47 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:47 | [32mINFO    [0m | aggregate | 📋 Création de la table externe orders...
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:58 | [33mWARNING [0m | aggregate |    ⚠️  Table orders déjà existante: HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:58 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:38:58 | [32mINFO    [0m | aggregate | 🔢 Agrégation des commandes par SKU avec Trino...
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [31mERROR   [0m | aggregate | ❌ Erreur Trino, utilisation du mode local...
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [31mERROR   [0m | aggregate |    Raison: Execution failed on sql: 
+2026-01-05 10:39:17 | INFO     | orchestrator |            SELECT 
+2026-01-05 10:39:17 | INFO     | orchestrator |                item.sku,
+2026-01-05 10:39:17 | INFO     | orchestrator |                SUM(item.quantity) as total_quantity,
+2026-01-05 10:39:17 | INFO     | orchestrator |                COUNT(DISTINCT o.order_id) as num_orders,
+2026-01-05 10:39:17 | INFO     | orchestrator |                COUNT(DISTINCT o.store_id) as num_stores,
+2026-01-05 10:39:17 | INFO     | orchestrator |                AVG(item.quantity) as avg_quantity_per_order,
+2026-01-05 10:39:17 | INFO     | orchestrator |                SUM(item.quantity * item.unit_price) as total_value
+2026-01-05 10:39:17 | INFO     | orchestrator |            FROM 
+2026-01-05 10:39:17 | INFO     | orchestrator |                hive.default.orders o
+2026-01-05 10:39:17 | INFO     | orchestrator |                CROSS JOIN UNNEST(o.items) AS t(item)
+2026-01-05 10:39:17 | INFO     | orchestrator |            WHERE 
+2026-01-05 10:39:17 | INFO     | orchestrator |                o.order_date = '2026-01-10'
+2026-01-05 10:39:17 | INFO     | orchestrator |            GROUP BY 
+2026-01-05 10:39:17 | INFO     | orchestrator |                item.sku
+2026-01-05 10:39:17 | INFO     | orchestrator |            ORDER BY 
+2026-01-05 10:39:17 | INFO     | orchestrator |                total_quantity DESC
+2026-01-05 10:39:17 | INFO     | orchestrator |    HTTPConnectionPool(host='presto', port=8080): Max retries exceeded with url: /v1/statement (Caused by NameResolutionError("HTTPConnection(host='presto', port=8080): Failed to resolve 'presto' ([Errno -2] Name or service not known)"))
+2026-01-05 10:39:17 | INFO     | orchestrator |    unable to rollback
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 📂 Chargement des commandes...
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate |    ✓ 500 commandes chargées
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 🔢 Agrégation par SKU...
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate |    ✓ 39 SKUs agrégés
+2026-01-05 10:39:17 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate | 💾 Sauvegarde des résultats...
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:09 | [32mINFO    [0m | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-01-10.csv
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate |    ✓ Upload HDFS: /processed/aggregated_orders/2026-01-10/aggregated_orders.csv
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate | 📊 STATISTIQUES:
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate |    • SKUs: 39
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate |    • Quantité totale: 34,232
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate |    • Valeur totale: 675,569.00 MAD
+2026-01-05 10:39:18 | INFO     | orchestrator |    2026-01-05 10:39:17 | [32mINFO    [0m | aggregate | 
+2026-01-05 10:39:18 | INFO     | orchestrator | ✅ Script terminé: 03_aggregate_orders.py
+2026-01-05 10:39:18 | INFO     | orchestrator | 
+2026-01-05 10:39:18 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/04_calculate_demand.py --date 2026-01-10
+2026-01-05 10:39:19 | INFO     | calculate | 🧮 Calcul pour la date: 2026-01-10
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 📂 Chargement des données agrégées...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 39 SKUs chargés
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 📂 Chargement des stocks...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 39 SKUs en stock
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 📂 Chargement des données maîtres...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 39 produits
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 39 stocks de sécurité
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 🔗 Consolidation des données...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 39 lignes consolidées
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 🧮 Calcul de la demande nette...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ 23 produits nécessitent une commande
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 💾 Sauvegarde des résultats...
+2026-01-05 10:39:19 | INFO     | calculate |    ✓ Fichier local: data/processed/net_demand_2026-01-10.csv
+2026-01-05 10:39:19 | INFO     | calculate | 
+2026-01-05 10:39:19 | INFO     | calculate | 📤 Upload vers HDFS...
+2026-01-05 10:39:28 | INFO     | calculate |    ✓ Répertoire HDFS créé: /processed/net_demand/2026-01-10
+2026-01-05 10:39:39 | INFO     | calculate |    ✓ Upload HDFS réussi: /processed/net_demand/2026-01-10/net_demand.csv
+2026-01-05 10:39:39 | INFO     | calculate |    📏 Taille du fichier: 2,560 octets
+2026-01-05 10:39:39 | INFO     | calculate | 
+2026-01-05 10:39:39 | INFO     | calculate | 📊 STATISTIQUES:
+2026-01-05 10:39:39 | INFO     | calculate |    • Produits à commander: 23
+2026-01-05 10:39:39 | INFO     | calculate |    • Quantité totale: 8,512
+2026-01-05 10:39:39 | INFO     | calculate |    • Valeur estimée: 160,085.00 MAD
+2026-01-05 10:39:39 | INFO     | calculate |    • Fournisseurs concernés: 14
+2026-01-05 10:39:39 | INFO     | calculate | 
+2026-01-05 10:39:39 | INFO     | calculate | 🔍 Vérification finale HDFS...
+2026-01-05 10:39:46 | INFO     | calculate |    ✓ Fichier HDFS vérifié: 23 lignes de données
+2026-01-05 10:39:46 | INFO     | calculate |    📋 Première ligne: sku,product_name,category,supplier_id,unit_price,pack_size,moq,unit_of_measure,total_quantity,daily_demand,current_stock,safety_stock_qty,gross_demand,net_demand,rounded_demand,final_order_qty
+2026-01-05 10:39:46 | INFO     | calculate | 
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 🧮 Calcul pour la date: 2026-01-10
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 📂 Chargement des données agrégées...
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 39 SKUs chargés
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 📂 Chargement des stocks...
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 39 SKUs en stock
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:46 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 📂 Chargement des données maîtres...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 39 produits
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 39 stocks de sécurité
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 🔗 Consolidation des données...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 39 lignes consolidées
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 🧮 Calcul de la demande nette...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ 23 produits nécessitent une commande
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 💾 Sauvegarde des résultats...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate |    ✓ Fichier local: data/processed/net_demand_2026-01-10.csv
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:19 | [32mINFO    [0m | calculate | 📤 Upload vers HDFS...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:28 | [32mINFO    [0m | calculate |    ✓ Répertoire HDFS créé: /processed/net_demand/2026-01-10
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    ✓ Upload HDFS réussi: /processed/net_demand/2026-01-10/net_demand.csv
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    📏 Taille du fichier: 2,560 octets
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate | 📊 STATISTIQUES:
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    • Produits à commander: 23
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    • Quantité totale: 8,512
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    • Valeur estimée: 160,085.00 MAD
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate |    • Fournisseurs concernés: 14
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:39 | [32mINFO    [0m | calculate | 🔍 Vérification finale HDFS...
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:46 | [32mINFO    [0m | calculate |    ✓ Fichier HDFS vérifié: 23 lignes de données
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:46 | [32mINFO    [0m | calculate |    📋 Première ligne: sku,product_name,category,supplier_id,unit_price,pack_size,moq,unit_of_measure,total_quantity,daily_demand,current_stock,safety_stock_qty,gross_demand,net_demand,rounded_demand,final_order_qty
+2026-01-05 10:39:47 | INFO     | orchestrator |    2026-01-05 10:39:46 | [32mINFO    [0m | calculate | 
+2026-01-05 10:39:47 | INFO     | orchestrator | ✅ Script terminé: 04_calculate_demand.py
+2026-01-05 10:39:47 | INFO     | orchestrator | 
+2026-01-05 10:39:47 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/05_generate_orders.py --date 2026-01-10
+2026-01-05 10:39:49 | INFO     | generate_orders | 📝 Génération pour la date: 2026-01-10
+2026-01-05 10:39:49 | INFO     | generate_orders | 
+2026-01-05 10:39:49 | INFO     | generate_orders | 📂 Chargement de la demande nette...
+2026-01-05 10:39:49 | INFO     | generate_orders |    ✓ 23 lignes chargées
+2026-01-05 10:39:49 | INFO     | generate_orders | 
+2026-01-05 10:39:49 | INFO     | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-05 10:39:49 | INFO     | generate_orders |    ✓ 15 fournisseurs
+2026-01-05 10:39:49 | INFO     | generate_orders | 
+2026-01-05 10:39:49 | INFO     | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-05 10:39:49 | INFO     | generate_orders | 
+2026-01-05 10:39:49 | INFO     | generate_orders |    ✓ SUP-011 (Agropur)
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Quantité: 300
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Valeur: 6,600.00 MAD
+2026-01-05 10:39:49 | INFO     | generate_orders |    ✓ SUP-002 (Bimo)
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Quantité: 696
+2026-01-05 10:39:49 | INFO     | generate_orders |       • Valeur: 3,132.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-009 (Nestlé Maroc)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 776
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 9,856.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-015 (Maroc Distribution)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 7
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 2,272
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 29,536.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-003 (Lesieur Cristal)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 1,328
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 21,584.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-007 (Oulmès)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 2
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 1,116
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 6,102.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-010 (Bel Maroc)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 720
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 10,800.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-001 (Centrale Laitière)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 102
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 867.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-014 (Procter & Gamble Maroc)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 684
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 64,980.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-005 (Dari Couspate)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 100
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 700.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-012 (Savola Maroc)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 50
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 700.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-008 (Unilever Maghreb)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 60
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 2,100.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-006 (SBM Coca-Cola)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 48
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 528.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    ✓ SUP-004 (Cosumar)
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Items: 1
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Quantité: 260
+2026-01-05 10:39:50 | INFO     | generate_orders |       • Valeur: 2,600.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders | 
+2026-01-05 10:39:50 | INFO     | generate_orders | 📊 RÉSUMÉ:
+2026-01-05 10:39:50 | INFO     | generate_orders |    • Commandes générées: 14
+2026-01-05 10:39:50 | INFO     | generate_orders |    • Valeur totale: 160,085.00 MAD
+2026-01-05 10:39:50 | INFO     | generate_orders |    • Répertoire: output/supplier_orders/2026-01-10
+2026-01-05 10:39:50 | INFO     | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 📝 Génération pour la date: 2026-01-10
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 📂 Chargement de la demande nette...
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |    ✓ 23 lignes chargées
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |    ✓ 15 fournisseurs
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |    ✓ SUP-011 (Agropur)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Quantité: 300
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Valeur: 6,600.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |    ✓ SUP-002 (Bimo)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Quantité: 696
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:49 | [32mINFO    [0m | generate_orders |       • Valeur: 3,132.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-009 (Nestlé Maroc)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 776
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 9,856.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-015 (Maroc Distribution)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 7
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 2,272
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 29,536.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-003 (Lesieur Cristal)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 1,328
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 21,584.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-007 (Oulmès)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 2
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 1,116
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 6,102.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-010 (Bel Maroc)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 720
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 10,800.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-001 (Centrale Laitière)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 102
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 867.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-014 (Procter & Gamble Maroc)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 684
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 64,980.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-005 (Dari Couspate)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 100
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 700.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-012 (Savola Maroc)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 50
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 700.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-008 (Unilever Maghreb)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 60
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 2,100.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-006 (SBM Coca-Cola)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 48
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 528.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    ✓ SUP-004 (Cosumar)
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Items: 1
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Quantité: 260
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |       • Valeur: 2,600.00 MAD
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders | 📊 RÉSUMÉ:
+2026-01-05 10:39:51 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    • Commandes générées: 14
+2026-01-05 10:39:52 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    • Valeur totale: 160,085.00 MAD
+2026-01-05 10:39:52 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders |    • Répertoire: output/supplier_orders/2026-01-10
+2026-01-05 10:39:52 | INFO     | orchestrator |    2026-01-05 10:39:50 | [32mINFO    [0m | generate_orders | 
+2026-01-05 10:39:52 | INFO     | orchestrator | ✅ Script terminé: 05_generate_orders.py
+2026-01-05 10:39:52 | INFO     | orchestrator | 
+2026-01-05 10:39:52 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/06_check_exceptions.py --date 2026-01-10
+2026-01-05 10:37:00 | INFO     | exceptions | 🔍 Vérification pour la date: 2026-01-10
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 📂 23 produits à commander
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-05 10:37:00 | INFO     | exceptions |    ✓ Aucune commande volumineuse
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-05 10:37:00 | WARNING  | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-05 10:37:00 | INFO     | exceptions |    ✓ Aucune rupture critique
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 🔎 Vérification des stocks bas...
+2026-01-05 10:37:00 | INFO     | exceptions |    ✓ Aucun stock critique
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-05 10:37:00 | INFO     | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-01-10.json
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-05 10:37:00 | INFO     | exceptions |    • Total: 1
+2026-01-05 10:37:00 | INFO     | exceptions |    • WARNING: 1
+2026-01-05 10:37:00 | INFO     | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 🔍 Vérification pour la date: 2026-01-10
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 📂 23 produits à commander
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    ✓ Aucune commande volumineuse
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [33mWARNING [0m | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    ✓ Aucune rupture critique
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 🔎 Vérification des stocks bas...
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    ✓ Aucun stock critique
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-01-10.json
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-05 10:37:00 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    • Total: 1
+2026-01-05 10:37:01 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions |    • WARNING: 1
+2026-01-05 10:37:01 | INFO     | orchestrator |    2026-01-05 10:37:00 | [32mINFO    [0m | exceptions | 
+2026-01-05 10:37:01 | INFO     | orchestrator | ✅ Script terminé: 06_check_exceptions.py
+2026-01-05 10:37:01 | INFO     | orchestrator | 
+2026-01-05 10:37:01 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:01 | INFO     | orchestrator | ✅ PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-05 10:37:01 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:01 | INFO     | orchestrator | ⏱️  Durée totale: -48.55 secondes
+2026-01-05 10:37:01 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-10
+2026-01-05 10:37:01 | INFO     | orchestrator | 🕐 Heure de fin: 2026-01-05 10:37:01
+2026-01-05 10:37:01 | INFO     | orchestrator | ================================================================================
+2026-01-05 10:37:01 | INFO     | orchestrator | 
+2026-01-05 12:14:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:14:14 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 12:14:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:14:14 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-11
+2026-01-05 12:14:14 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 12:14:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:14:14 | INFO     | orchestrator | 
+2026-01-05 12:14:14 | INFO     | orchestrator | 
+2026-01-05 12:14:14 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 12:14:14 | INFO     | orchestrator | 
+2026-01-05 12:14:14 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-11 --num-orders 500
+2026-01-05 12:14:16 | INFO     | generate | 📅 Date: 2026-01-11
+2026-01-05 12:14:16 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 12:14:16 | INFO     | generate | 
+2026-01-05 12:14:16 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:14:16 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 12:14:16 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:14:16 | INFO     | generate | 
+2026-01-05 12:14:16 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 12:14:17 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 12:14:17 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:14:17 | INFO     | generate | 
+2026-01-05 12:14:17 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:14:17 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:14:17 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:14:17 | INFO     | generate | 
+2026-01-05 12:14:17 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 12:14:17 | INFO     | generate |    • Commandes: 500
+2026-01-05 12:14:17 | INFO     | generate |    • Magasins: 8
+2026-01-05 12:14:17 | INFO     | generate |    • Items commandés: 3235
+2026-01-05 12:14:17 | INFO     | generate |    • Valeur totale: 665,981.50 MAD
+2026-01-05 12:14:17 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 12:14:17 | INFO     | generate | 
+2026-01-05 12:14:17 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 📅 Date: 2026-01-11
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:16 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | 
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | 
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    • Items commandés: 3235
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    • Valeur totale: 665,981.50 MAD
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | 
+2026-01-05 12:14:18 | INFO     | orchestrator |    2026-01-05 12:14:17 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 12:14:18 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 12:14:18 | INFO     | orchestrator | 
+2026-01-05 12:14:18 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-11
+2026-01-05 12:14:22 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:14:22 | INFO     | ingest | 
+2026-01-05 12:14:22 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:14:24 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:14:24 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 12:14:24 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 12:14:24 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 12:14:24 | ERROR    | orchestrator |    2026-01-05 12:14:22 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:14:24 | ERROR    | orchestrator |    2026-01-05 12:14:22 | [32mINFO    [0m | ingest | 
+2026-01-05 12:14:24 | ERROR    | orchestrator |    2026-01-05 12:14:22 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:14:24 | ERROR    | orchestrator |    2026-01-05 12:14:24 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:14:24 | ERROR    | orchestrator |    STDERR:
+2026-01-05 12:14:24 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-11': Input/output error
+2026-01-05 12:14:24 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 12:14:24 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 12:14:24 | ERROR    | orchestrator |    ⏱️  Durée: 4.92s
+2026-01-05 12:14:24 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:14:24 | ERROR    | orchestrator |    ============================================================
+2026-01-05 12:14:24 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 12:14:24 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 12:14:24 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 12:14:24 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 12:14:24 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 12:14:24 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 12:14:24 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 12:14:24 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 12:14:24 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 12:14:24 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 12:14:24 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 12:14:24 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:14:24 | ERROR    | orchestrator | 
+2026-01-05 12:14:24 | ERROR    | orchestrator | ================================================================================
+2026-01-05 12:14:24 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 12:14:24 | ERROR    | orchestrator | ================================================================================
+2026-01-05 12:18:13 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:18:13 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 12:18:13 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:18:13 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-11
+2026-01-05 12:18:13 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 12:18:13 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:18:13 | INFO     | orchestrator | 
+2026-01-05 12:18:13 | INFO     | orchestrator | 
+2026-01-05 12:18:13 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 12:18:13 | INFO     | orchestrator | 
+2026-01-05 12:18:13 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-11 --num-orders 500
+2026-01-05 12:18:15 | INFO     | generate | 📅 Date: 2026-01-11
+2026-01-05 12:18:15 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 12:18:15 | INFO     | generate | 
+2026-01-05 12:18:15 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:18:15 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 12:18:15 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:18:15 | INFO     | generate | 
+2026-01-05 12:18:15 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 12:18:16 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 12:18:16 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:18:16 | INFO     | generate | 
+2026-01-05 12:18:16 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:18:16 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:18:16 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:18:16 | INFO     | generate | 
+2026-01-05 12:18:16 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 12:18:16 | INFO     | generate |    • Commandes: 500
+2026-01-05 12:18:16 | INFO     | generate |    • Magasins: 8
+2026-01-05 12:18:16 | INFO     | generate |    • Items commandés: 3241
+2026-01-05 12:18:16 | INFO     | generate |    • Valeur totale: 660,967.00 MAD
+2026-01-05 12:18:16 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 12:18:16 | INFO     | generate | 
+2026-01-05 12:18:16 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 📅 Date: 2026-01-11
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:15 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | 
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | 
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    • Items commandés: 3241
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    • Valeur totale: 660,967.00 MAD
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | 
+2026-01-05 12:18:16 | INFO     | orchestrator |    2026-01-05 12:18:16 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 12:18:16 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 12:18:16 | INFO     | orchestrator | 
+2026-01-05 12:18:16 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-11
+2026-01-05 12:18:22 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:18:22 | INFO     | ingest | 
+2026-01-05 12:18:22 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:18:24 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:18:25 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 12:18:25 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 12:18:25 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 12:18:25 | ERROR    | orchestrator |    2026-01-05 12:18:22 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:18:25 | ERROR    | orchestrator |    2026-01-05 12:18:22 | [32mINFO    [0m | ingest | 
+2026-01-05 12:18:25 | ERROR    | orchestrator |    2026-01-05 12:18:22 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:18:25 | ERROR    | orchestrator |    2026-01-05 12:18:24 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:18:25 | ERROR    | orchestrator |    STDERR:
+2026-01-05 12:18:25 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-11': Input/output error
+2026-01-05 12:18:25 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 12:18:25 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 12:18:25 | ERROR    | orchestrator |    ⏱️  Durée: 4.36s
+2026-01-05 12:18:25 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:18:25 | ERROR    | orchestrator |    ============================================================
+2026-01-05 12:18:25 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 12:18:25 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 12:18:25 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 12:18:25 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 12:18:25 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 12:18:25 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 12:18:25 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 12:18:25 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 12:18:25 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 12:18:25 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 12:18:25 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 12:18:25 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:18:25 | ERROR    | orchestrator | 
+2026-01-05 12:18:25 | ERROR    | orchestrator | ================================================================================
+2026-01-05 12:18:25 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 12:18:25 | ERROR    | orchestrator | ================================================================================
+2026-01-05 12:20:30 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:20:30 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 12:20:30 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:20:30 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-11
+2026-01-05 12:20:30 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 12:20:30 | INFO     | orchestrator | ================================================================================
+2026-01-05 12:20:30 | INFO     | orchestrator | 
+2026-01-05 12:20:30 | INFO     | orchestrator | 
+2026-01-05 12:20:30 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 12:20:30 | INFO     | orchestrator | 
+2026-01-05 12:20:30 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-11 --num-orders 500
+2026-01-05 12:20:32 | INFO     | generate | 📅 Date: 2026-01-11
+2026-01-05 12:20:32 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 12:20:32 | INFO     | generate | 
+2026-01-05 12:20:32 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:20:32 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 12:20:32 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:20:32 | INFO     | generate | 
+2026-01-05 12:20:32 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 12:20:33 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 12:20:33 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:20:33 | INFO     | generate | 
+2026-01-05 12:20:33 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:20:33 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:20:33 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:20:33 | INFO     | generate | 
+2026-01-05 12:20:33 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 12:20:33 | INFO     | generate |    • Commandes: 500
+2026-01-05 12:20:33 | INFO     | generate |    • Magasins: 8
+2026-01-05 12:20:33 | INFO     | generate |    • Items commandés: 3287
+2026-01-05 12:20:33 | INFO     | generate |    • Valeur totale: 661,675.50 MAD
+2026-01-05 12:20:33 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 12:20:33 | INFO     | generate | 
+2026-01-05 12:20:33 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 📅 Date: 2026-01-11
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:32 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-11/orders.json
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | 
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-11/stock.csv
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | 
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    • Items commandés: 3287
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    • Valeur totale: 661,675.50 MAD
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | 
+2026-01-05 12:20:33 | INFO     | orchestrator |    2026-01-05 12:20:33 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 12:20:33 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 12:20:33 | INFO     | orchestrator | 
+2026-01-05 12:20:34 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-11
+2026-01-05 12:20:38 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:20:38 | INFO     | ingest | 
+2026-01-05 12:20:38 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:20:40 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:20:40 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 12:20:40 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 12:20:40 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 12:20:40 | ERROR    | orchestrator |    2026-01-05 12:20:38 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-11
+2026-01-05 12:20:40 | ERROR    | orchestrator |    2026-01-05 12:20:38 | [32mINFO    [0m | ingest | 
+2026-01-05 12:20:40 | ERROR    | orchestrator |    2026-01-05 12:20:38 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 12:20:40 | ERROR    | orchestrator |    2026-01-05 12:20:40 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:20:40 | ERROR    | orchestrator |    STDERR:
+2026-01-05 12:20:40 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-11': Input/output error
+2026-01-05 12:20:40 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 12:20:40 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 12:20:40 | ERROR    | orchestrator |    ⏱️  Durée: 5.20s
+2026-01-05 12:20:40 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:20:40 | ERROR    | orchestrator |    ============================================================
+2026-01-05 12:20:40 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 12:20:40 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 12:20:40 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 12:20:40 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 12:20:40 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 12:20:40 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 12:20:40 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 12:20:40 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 12:20:40 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 12:20:40 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 12:20:40 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 12:20:40 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-11']' returned non-zero exit status 1.
+2026-01-05 12:20:40 | ERROR    | orchestrator | 
+2026-01-05 12:20:40 | ERROR    | orchestrator | ================================================================================
+2026-01-05 12:20:40 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 12:20:40 | ERROR    | orchestrator | ================================================================================
+2026-01-05 13:27:22 | INFO     | generate | 📅 Date: 2026-01-13
+2026-01-05 13:27:22 | INFO     | generate | 📦 Commandes à générer: 100
+2026-01-05 13:27:22 | INFO     | generate | 
+2026-01-05 13:27:22 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:27:22 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 13:27:22 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 13:27:22 | INFO     | generate | 
+2026-01-05 13:27:22 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 13:27:22 | INFO     | generate |    ✓ 100 commandes générées
+2026-01-05 13:27:22 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-13/orders.json
+2026-01-05 13:27:22 | INFO     | generate | 
+2026-01-05 13:27:22 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 13:27:22 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 13:27:22 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-13/stock.csv
+2026-01-05 13:27:22 | INFO     | generate | 
+2026-01-05 13:27:22 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 13:27:22 | INFO     | generate |    • Commandes: 100
+2026-01-05 13:27:22 | INFO     | generate |    • Magasins: 8
+2026-01-05 13:27:22 | INFO     | generate |    • Items commandés: 656
+2026-01-05 13:27:22 | INFO     | generate |    • Valeur totale: 132,522.00 MAD
+2026-01-05 13:27:22 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 13:27:22 | INFO     | generate | 
+2026-01-05 13:27:22 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 13:27:59 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:27:59 | INFO     | orchestrator | ðŸ‡²ðŸ‡¦  PIPELINE DE PROCUREMENT - RÃ‰GION DE CASABLANCA
+2026-01-05 13:27:59 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:27:59 | INFO     | orchestrator | ðŸ“… Date d'exÃ©cution: 2026-01-13
+2026-01-05 13:27:59 | INFO     | orchestrator | ðŸ“ RÃ©pertoire scripts: /app/scripts
+2026-01-05 13:27:59 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:27:59 | INFO     | orchestrator | 
+2026-01-05 13:27:59 | INFO     | orchestrator | 
+2026-01-05 13:27:59 | INFO     | orchestrator | ðŸš€ DÃ‰MARRAGE DU PIPELINE COMPLET
+2026-01-05 13:27:59 | INFO     | orchestrator | 
+2026-01-05 13:27:59 | INFO     | orchestrator | ðŸš€ ExÃ©cution: python /app/scripts/01_generate_data.py --date 2026-01-13 --num-orders 500
+2026-01-05 13:28:00 | INFO     | generate | 📅 Date: 2026-01-13
+2026-01-05 13:28:00 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 13:28:00 | INFO     | generate | 
+2026-01-05 13:28:00 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:28:01 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 13:28:01 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 13:28:01 | INFO     | generate | 
+2026-01-05 13:28:01 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 13:28:01 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 13:28:01 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-13/orders.json
+2026-01-05 13:28:01 | INFO     | generate | 
+2026-01-05 13:28:01 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 13:28:01 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 13:28:01 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-13/stock.csv
+2026-01-05 13:28:01 | INFO     | generate | 
+2026-01-05 13:28:01 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 13:28:01 | INFO     | generate |    • Commandes: 500
+2026-01-05 13:28:01 | INFO     | generate |    • Magasins: 8
+2026-01-05 13:28:01 | INFO     | generate |    • Items commandés: 3235
+2026-01-05 13:28:01 | INFO     | generate |    • Valeur totale: 662,124.50 MAD
+2026-01-05 13:28:01 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 13:28:01 | INFO     | generate | 
+2026-01-05 13:28:01 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:00 | [32mINFO    [0m | generate | 📅 Date: 2026-01-13
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:00 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:00 | [32mINFO    [0m | generate | 
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:00 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-13/orders.json
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-13/stock.csv
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    • Items commandés: 3235
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    • Valeur totale: 662,124.50 MAD
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | 
+2026-01-05 13:28:01 | INFO     | orchestrator |    2026-01-05 13:28:01 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 13:28:01 | INFO     | orchestrator | âœ… Script terminÃ©: 01_generate_data.py
+2026-01-05 13:28:01 | INFO     | orchestrator | 
+2026-01-05 13:28:01 | INFO     | orchestrator | ðŸš€ ExÃ©cution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-13
+2026-01-05 13:28:05 | INFO     | ingest | ðŸ“‚ Ingestion pour la date: 2026-01-13
+2026-01-05 13:28:05 | INFO     | ingest | 
+2026-01-05 13:28:05 | INFO     | ingest | ðŸ“ CrÃ©ation des rÃ©pertoires HDFS...
+2026-01-05 13:28:07 | ERROR    | ingest | âŒ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-13']' returned non-zero exit status 1.
+2026-01-05 13:28:07 | ERROR    | orchestrator | âŒ Erreur lors de l'exÃ©cution de 02_ingest_to_hdfs.py
+2026-01-05 13:28:07 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 13:28:07 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 13:28:07 | ERROR    | orchestrator |    2026-01-05 13:28:05 | [32mINFO    [0m | ingest | ðŸ“‚ Ingestion pour la date: 2026-01-13
+2026-01-05 13:28:07 | ERROR    | orchestrator |    2026-01-05 13:28:05 | [32mINFO    [0m | ingest | 
+2026-01-05 13:28:07 | ERROR    | orchestrator |    2026-01-05 13:28:05 | [32mINFO    [0m | ingest | ðŸ“ CrÃ©ation des rÃ©pertoires HDFS...
+2026-01-05 13:28:07 | ERROR    | orchestrator |    2026-01-05 13:28:07 | [31mERROR   [0m | ingest | âŒ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-13']' returned non-zero exit status 1.
+2026-01-05 13:28:07 | ERROR    | orchestrator |    STDERR:
+2026-01-05 13:28:07 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-13': Input/output error
+2026-01-05 13:28:07 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 13:28:07 | ERROR    | orchestrator |    âŒ ERREUR: Ingestion des donnÃ©es vers HDFS
+2026-01-05 13:28:07 | ERROR    | orchestrator |    â±ï¸  DurÃ©e: 3.65s
+2026-01-05 13:28:07 | ERROR    | orchestrator |    ðŸ’¥ Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-13']' returned non-zero exit status 1.
+2026-01-05 13:28:07 | ERROR    | orchestrator |    ============================================================
+2026-01-05 13:28:07 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 13:28:07 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 13:28:07 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 13:28:07 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 13:28:07 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 13:28:07 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 13:28:07 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 13:28:07 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 13:28:07 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 13:28:07 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 13:28:07 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 13:28:07 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-13']' returned non-zero exit status 1.
+2026-01-05 13:28:07 | ERROR    | orchestrator | 
+2026-01-05 13:28:07 | ERROR    | orchestrator | ================================================================================
+2026-01-05 13:28:07 | ERROR    | orchestrator | âŒ PIPELINE INTERROMPU Ã€ L'Ã‰TAPE 02
+2026-01-05 13:28:07 | ERROR    | orchestrator | ================================================================================
+2026-01-05 13:31:33 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:31:33 | INFO     | orchestrator | ðŸ‡²ðŸ‡¦  PIPELINE DE PROCUREMENT - RÃ‰GION DE CASABLANCA
+2026-01-05 13:31:33 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:31:33 | INFO     | orchestrator | ðŸ“… Date d'exÃ©cution: 2026-01-09
+2026-01-05 13:31:33 | INFO     | orchestrator | ðŸ“ RÃ©pertoire scripts: /app/scripts
+2026-01-05 13:31:33 | INFO     | orchestrator | ================================================================================
+2026-01-05 13:31:33 | INFO     | orchestrator | 
+2026-01-05 13:31:33 | INFO     | orchestrator | 
+2026-01-05 13:31:33 | INFO     | orchestrator | ðŸš€ DÃ‰MARRAGE DU PIPELINE COMPLET
+2026-01-05 13:31:33 | INFO     | orchestrator | 
+2026-01-05 13:31:33 | INFO     | orchestrator | ðŸš€ ExÃ©cution: python /app/scripts/01_generate_data.py --date 2026-01-09 --num-orders 500
+2026-01-05 13:31:34 | INFO     | generate | 📅 Date: 2026-01-09
+2026-01-05 13:31:34 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 13:31:34 | INFO     | generate | 
+2026-01-05 13:31:34 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:31:35 | INFO     | generate |    ✓ 0 produits chargés
+2026-01-05 13:31:35 | INFO     | generate |    ✓ 0 entrepôts chargés
+2026-01-05 13:31:35 | INFO     | generate | 
+2026-01-05 13:31:35 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 13:31:35 | ERROR    | generate | ❌ Erreur: a must be greater than 0 unless no samples are taken
+Traceback (most recent call last):
+  File "/app/scripts/01_generate_data.py", line 170, in main
+    generate_data(args.date, args.num_orders)
+  File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+    result = func(*args, **kwargs)
+  File "/app/scripts/01_generate_data.py", line 71, in generate_data
+    selected_products = products.sample(n=num_items)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 6112, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/sample.py", line 152, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "numpy/random/mtrand.pyx", line 944, in numpy.random.mtrand.RandomState.choice
+ValueError: a must be greater than 0 unless no samples are taken
+2026-01-05 13:31:35 | ERROR    | orchestrator | âŒ Erreur lors de l'exÃ©cution de 01_generate_data.py
+2026-01-05 13:31:35 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 13:31:35 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:34 | [32mINFO    [0m | generate | 📅 Date: 2026-01-09
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:34 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:34 | [32mINFO    [0m | generate | 
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:34 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:35 | [32mINFO    [0m | generate |    ✓ 0 produits chargés
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:35 | [32mINFO    [0m | generate |    ✓ 0 entrepôts chargés
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:35 | [32mINFO    [0m | generate | 
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:35 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 13:31:35 | ERROR    | orchestrator |    2026-01-05 13:31:35 | [31mERROR   [0m | generate | ❌ Erreur: a must be greater than 0 unless no samples are taken
+2026-01-05 13:31:35 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/app/scripts/01_generate_data.py", line 170, in main
+2026-01-05 13:31:35 | ERROR    | orchestrator |        generate_data(args.date, args.num_orders)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 13:31:35 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/app/scripts/01_generate_data.py", line 71, in generate_data
+2026-01-05 13:31:35 | ERROR    | orchestrator |        selected_products = products.sample(n=num_items)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 6112, in sample
+2026-01-05 13:31:35 | ERROR    | orchestrator |        sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/site-packages/pandas/core/sample.py", line 152, in sample
+2026-01-05 13:31:35 | ERROR    | orchestrator |        return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "numpy/random/mtrand.pyx", line 944, in numpy.random.mtrand.RandomState.choice
+2026-01-05 13:31:35 | ERROR    | orchestrator |    ValueError: a must be greater than 0 unless no samples are taken
+2026-01-05 13:31:35 | ERROR    | orchestrator |    STDERR:
+2026-01-05 13:31:35 | ERROR    | orchestrator |    /app/scripts/../scripts/utils/postgres_client.py:102: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+2026-01-05 13:31:35 | ERROR    | orchestrator |      df = pd.read_sql_query(query, conn, params=params)
+2026-01-05 13:31:35 | ERROR    | orchestrator |    /app/scripts/../scripts/utils/postgres_client.py:102: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+2026-01-05 13:31:35 | ERROR    | orchestrator |      df = pd.read_sql_query(query, conn, params=params)
+2026-01-05 13:31:35 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 13:31:35 | ERROR    | orchestrator |    âŒ ERREUR: Génération des données
+2026-01-05 13:31:35 | ERROR    | orchestrator |    â±ï¸  DurÃ©e: 0.34s
+2026-01-05 13:31:35 | ERROR    | orchestrator |    ðŸ’¥ Exception: a must be greater than 0 unless no samples are taken
+2026-01-05 13:31:35 | ERROR    | orchestrator |    ============================================================
+2026-01-05 13:31:35 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 13:31:35 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/app/scripts/01_generate_data.py", line 71, in generate_data
+2026-01-05 13:31:35 | ERROR    | orchestrator |        selected_products = products.sample(n=num_items)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 6112, in sample
+2026-01-05 13:31:35 | ERROR    | orchestrator |        sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/site-packages/pandas/core/sample.py", line 152, in sample
+2026-01-05 13:31:35 | ERROR    | orchestrator |        return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+2026-01-05 13:31:35 | ERROR    | orchestrator |      File "numpy/random/mtrand.pyx", line 944, in numpy.random.mtrand.RandomState.choice
+2026-01-05 13:31:35 | ERROR    | orchestrator |    ValueError: a must be greater than 0 unless no samples are taken
+2026-01-05 13:31:35 | ERROR    | orchestrator | 
+2026-01-05 13:31:35 | ERROR    | orchestrator | ================================================================================
+2026-01-05 13:31:35 | ERROR    | orchestrator | âŒ PIPELINE INTERROMPU Ã€ L'Ã‰TAPE 01
+2026-01-05 13:31:35 | ERROR    | orchestrator | ================================================================================
+2026-01-05 13:51:30 | INFO     | generate | 📅 Date: 2026-01-14
+2026-01-05 13:51:30 | INFO     | generate | 📦 Commandes à générer: 100
+2026-01-05 13:51:30 | INFO     | generate | 
+2026-01-05 13:51:30 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:51:30 | INFO     | generate |    ✓ 0 produits chargés
+2026-01-05 13:51:30 | INFO     | generate |    ✓ 0 entrepôts chargés
+2026-01-05 13:51:30 | INFO     | generate | 
+2026-01-05 13:51:30 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 13:51:30 | ERROR    | generate | ❌ Erreur: a must be greater than 0 unless no samples are taken
+Traceback (most recent call last):
+  File "/app/scripts/01_generate_data.py", line 170, in main
+    generate_data(args.date, args.num_orders)
+  File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+    result = func(*args, **kwargs)
+  File "/app/scripts/01_generate_data.py", line 71, in generate_data
+    selected_products = products.sample(n=num_items)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 6112, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/sample.py", line 152, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "numpy/random/mtrand.pyx", line 944, in numpy.random.mtrand.RandomState.choice
+ValueError: a must be greater than 0 unless no samples are taken
+2026-01-05 13:51:59 | INFO     | generate | 📅 Date: 2026-01-05
+2026-01-05 13:51:59 | INFO     | generate | 📦 Commandes à générer: 100
+2026-01-05 13:51:59 | INFO     | generate | 
+2026-01-05 13:51:59 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 13:52:00 | INFO     | generate |    ✓ 0 produits chargés
+2026-01-05 13:52:00 | INFO     | generate |    ✓ 0 entrepôts chargés
+2026-01-05 13:52:00 | INFO     | generate | 
+2026-01-05 13:52:00 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 13:52:00 | ERROR    | generate | ❌ Erreur: a must be greater than 0 unless no samples are taken
+Traceback (most recent call last):
+  File "/app/scripts/01_generate_data.py", line 170, in main
+    generate_data(args.date, args.num_orders)
+  File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+    result = func(*args, **kwargs)
+  File "/app/scripts/01_generate_data.py", line 71, in generate_data
+    selected_products = products.sample(n=num_items)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/generic.py", line 6112, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/usr/local/lib/python3.9/site-packages/pandas/core/sample.py", line 152, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "numpy/random/mtrand.pyx", line 944, in numpy.random.mtrand.RandomState.choice
+ValueError: a must be greater than 0 unless no samples are taken
+2026-01-05 14:22:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:22:08 | INFO     | orchestrator | ðŸ‡²ðŸ‡¦  PIPELINE DE PROCUREMENT - RÃ‰GION DE CASABLANCA
+2026-01-05 14:22:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:22:08 | INFO     | orchestrator | ðŸ“… Date d'exÃ©cution: 2026-01-15
+2026-01-05 14:22:08 | INFO     | orchestrator | ðŸ“ RÃ©pertoire scripts: /app/scripts
+2026-01-05 14:22:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:22:08 | INFO     | orchestrator | 
+2026-01-05 14:22:08 | INFO     | orchestrator | 
+2026-01-05 14:22:08 | INFO     | orchestrator | ðŸš€ DÃ‰MARRAGE DU PIPELINE COMPLET
+2026-01-05 14:22:08 | INFO     | orchestrator | 
+2026-01-05 14:39:47 | INFO     | init_db | 🗄️  INITIALISATION BASE DE DONNÉES POSTGRESQL
+2026-01-05 14:39:47 | INFO     | init_db | ============================================================
+2026-01-05 14:39:47 | INFO     | init_db | ✅ Connexion PostgreSQL établie
+2026-01-05 14:39:47 | INFO     | init_db | 
+2026-01-05 14:39:47 | INFO     | init_db | 📄 Création du schéma: 01_schema.sql
+2026-01-05 14:39:47 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:39:47 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:39:47 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:39:48 | INFO     | init_db |     ✅ Schéma PostgreSQL créé avec succès!
+2026-01-05 14:39:48 | INFO     | init_db | ✅ Création du schéma terminé
+2026-01-05 14:39:48 | INFO     | init_db | 
+2026-01-05 14:39:48 | INFO     | init_db | 📄 Insertion des données maîtres: 02_master_data.sql
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$
+DECLARE
+    nb_suppliers INT"
+LINE 4: DO $$
+       ...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_warehouses"
+LINE 1: nb_warehouses INT
+        ^
+...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_products"
+LINE 1: nb_products INT
+        ^
+...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_safety_stocks"
+LINE 1: nb_safety_stocks INT
+        ^
+...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "SELECT"
+LINE 2:     SELECT COUNT(*) INTO nb_suppliers FROM suppliers
+      ...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Fournisseurs insérés: %', nb_suppliers
+     ...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Entrepôts insérés: %', nb_warehouses
+       ...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Produits insérés: %', nb_products
+        ^
+...
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Stocks de sécurité configurés: %', nb_safet....
+2026-01-05 14:39:48 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$"
+LINE 1: END $$
+            ^
+...
+2026-01-05 14:39:48 | INFO     | init_db | ✅ Insertion des données maîtres terminé
+2026-01-05 14:39:48 | INFO     | init_db | 
+2026-01-05 14:39:48 | INFO     | init_db | 🔍 VÉRIFICATION FINALE
+2026-01-05 14:39:48 | INFO     | init_db |   📊 Tables créées: 4
+2026-01-05 14:39:48 | INFO     | init_db |   📈 suppliers: 0 enregistrements
+2026-01-05 14:39:48 | INFO     | init_db |   📈 warehouses: 0 enregistrements
+2026-01-05 14:39:48 | INFO     | init_db |   📈 products: 0 enregistrements
+2026-01-05 14:39:48 | INFO     | init_db |   📈 safety_stocks: 0 enregistrements
+2026-01-05 14:39:48 | INFO     | init_db | ✅ Base de données initialisée avec succès!
+2026-01-05 14:39:48 | INFO     | init_db | 
+2026-01-05 14:39:48 | INFO     | init_db | ============================================================
+2026-01-05 14:39:48 | INFO     | init_db | 🎉 INITIALISATION TERMINÉE!
+2026-01-05 14:39:48 | INFO     | init_db | 
+2026-01-05 14:44:32 | INFO     | init_db | 🗄️  INITIALISATION BASE DE DONNÉES POSTGRESQL
+2026-01-05 14:44:32 | INFO     | init_db | ============================================================
+2026-01-05 14:44:32 | INFO     | init_db | ✅ Connexion PostgreSQL établie
+2026-01-05 14:44:32 | INFO     | init_db | 
+2026-01-05 14:44:32 | INFO     | init_db | 📄 Création du schéma: 01_schema.sql
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:44:32 | INFO     | init_db |     ✅ Schéma PostgreSQL créé avec succès!
+2026-01-05 14:44:32 | INFO     | init_db | ✅ Création du schéma terminé
+2026-01-05 14:44:32 | INFO     | init_db | 
+2026-01-05 14:44:32 | INFO     | init_db | 📄 Insertion des données maîtres: 02_master_data.sql
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$
+DECLARE
+    nb_suppliers INT"
+LINE 4: DO $$
+       ...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_warehouses"
+LINE 1: nb_warehouses INT
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_products"
+LINE 1: nb_products INT
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_safety_stocks"
+LINE 1: nb_safety_stocks INT
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "SELECT"
+LINE 2:     SELECT COUNT(*) INTO nb_suppliers FROM suppliers
+      ...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Fournisseurs insérés: %', nb_suppliers
+     ...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Entrepôts insérés: %', nb_warehouses
+       ...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Produits insérés: %', nb_products
+        ^
+...
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Stocks de sécurité configurés: %', nb_safet....
+2026-01-05 14:44:32 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$"
+LINE 1: END $$
+            ^
+...
+2026-01-05 14:44:32 | INFO     | init_db | ✅ Insertion des données maîtres terminé
+2026-01-05 14:44:32 | INFO     | init_db | 
+2026-01-05 14:44:32 | INFO     | init_db | 🔍 VÉRIFICATION FINALE
+2026-01-05 14:44:33 | INFO     | init_db |   📊 Tables créées: 4
+2026-01-05 14:44:33 | INFO     | init_db |   📈 suppliers: 0 enregistrements
+2026-01-05 14:44:33 | INFO     | init_db |   📈 warehouses: 0 enregistrements
+2026-01-05 14:44:33 | INFO     | init_db |   📈 products: 0 enregistrements
+2026-01-05 14:44:33 | INFO     | init_db |   📈 safety_stocks: 0 enregistrements
+2026-01-05 14:44:33 | INFO     | init_db | ✅ Base de données initialisée avec succès!
+2026-01-05 14:44:33 | INFO     | init_db | 
+2026-01-05 14:44:33 | INFO     | init_db | ============================================================
+2026-01-05 14:44:33 | INFO     | init_db | 🎉 INITIALISATION TERMINÉE!
+2026-01-05 14:44:33 | INFO     | init_db | 
+2026-01-05 14:45:03 | INFO     | init_db | 🗄️  INITIALISATION BASE DE DONNÉES POSTGRESQL
+2026-01-05 14:45:03 | INFO     | init_db | ============================================================
+2026-01-05 14:45:03 | INFO     | init_db | ✅ Connexion PostgreSQL établie
+2026-01-05 14:45:03 | INFO     | init_db | 
+2026-01-05 14:45:03 | INFO     | init_db | 📄 Création du schéma: 01_schema.sql
+2026-01-05 14:45:03 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:45:03 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:45:03 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:45:03 | WARNING  | init_db |     ⚠️  Erreur: current transaction is aborted, commands ignored until end of transaction block
+...
+2026-01-05 14:45:03 | INFO     | init_db |     ✅ Schéma PostgreSQL créé avec succès!
+2026-01-05 14:45:03 | INFO     | init_db | ✅ Création du schéma terminé
+2026-01-05 14:45:03 | INFO     | init_db | 
+2026-01-05 14:45:03 | INFO     | init_db | 📄 Insertion des données maîtres: 02_master_data.sql
+2026-01-05 14:45:03 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$
+DECLARE
+    nb_suppliers INT"
+LINE 4: DO $$
+       ...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_warehouses"
+LINE 1: nb_warehouses INT
+        ^
+...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_products"
+LINE 1: nb_products INT
+        ^
+...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "nb_safety_stocks"
+LINE 1: nb_safety_stocks INT
+        ^
+...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "SELECT"
+LINE 2:     SELECT COUNT(*) INTO nb_suppliers FROM suppliers
+      ...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: no results to fetch...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Fournisseurs insérés: %', nb_suppliers
+     ...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Entrepôts insérés: %', nb_warehouses
+       ...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Produits insérés: %', nb_products
+        ^
+...
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "RAISE"
+LINE 1: RAISE NOTICE '✅ Stocks de sécurité configurés: %', nb_safet....
+2026-01-05 14:45:04 | WARNING  | init_db |     ⚠️  Erreur: unterminated dollar-quoted string at or near "$$"
+LINE 1: END $$
+            ^
+...
+2026-01-05 14:45:04 | INFO     | init_db | ✅ Insertion des données maîtres terminé
+2026-01-05 14:45:04 | INFO     | init_db | 
+2026-01-05 14:45:04 | INFO     | init_db | 🔍 VÉRIFICATION FINALE
+2026-01-05 14:45:04 | INFO     | init_db |   📊 Tables créées: 4
+2026-01-05 14:45:04 | INFO     | init_db |   📈 suppliers: 0 enregistrements
+2026-01-05 14:45:04 | INFO     | init_db |   📈 warehouses: 0 enregistrements
+2026-01-05 14:45:04 | INFO     | init_db |   📈 products: 0 enregistrements
+2026-01-05 14:45:04 | INFO     | init_db |   📈 safety_stocks: 0 enregistrements
+2026-01-05 14:45:04 | INFO     | init_db | ✅ Base de données initialisée avec succès!
+2026-01-05 14:42:11 | INFO     | init_db | 
+2026-01-05 14:42:11 | INFO     | init_db | ============================================================
+2026-01-05 14:42:11 | INFO     | init_db | 🎉 INITIALISATION TERMINÉE!
+2026-01-05 14:42:11 | INFO     | init_db | 
+2026-01-05 14:47:15 | INFO     | init_db | 🗄️  INITIALISATION BASE DE DONNÉES POSTGRESQL
+2026-01-05 14:47:15 | INFO     | init_db | ============================================================
+2026-01-05 14:47:15 | INFO     | init_db | ✅ Connexion PostgreSQL établie
+2026-01-05 14:47:15 | INFO     | init_db | 
+2026-01-05 14:47:15 | INFO     | init_db | 📄 Création du schéma: 01_schema.sql
+2026-01-05 14:47:15 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ========================================================...
+...
+2026-01-05 14:47:15 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "\"
+LINE 4: \dt procurement.*
+        ^
+...
+2026-01-05 14:47:15 | INFO     | init_db | ✅ Création du schéma terminé
+2026-01-05 14:47:15 | INFO     | init_db | 
+2026-01-05 14:47:15 | INFO     | init_db | 📄 Insertion des données maîtres: 02_master_data.sql
+2026-01-05 14:47:15 | WARNING  | init_db |     ⚠️  Erreur: syntax error at or near "﻿"
+LINE 1: ﻿-- ============================================
+        ^
+...
+2026-01-05 14:47:15 | INFO     | init_db |     Entrepôts insérés: 2
+2026-01-05 14:47:15 | INFO     | init_db |     Produits insérés: 39
+2026-01-05 14:47:15 | INFO     | init_db |     Stocks de sécurité configurés: 39
+2026-01-05 14:47:15 | INFO     | init_db | ✅ Insertion des données maîtres terminé
+2026-01-05 14:47:15 | INFO     | init_db | 
+2026-01-05 14:47:15 | INFO     | init_db | 🔍 VÉRIFICATION FINALE
+2026-01-05 14:47:16 | INFO     | init_db |   📊 Tables créées: 4
+2026-01-05 14:47:16 | INFO     | init_db |   📈 suppliers: 15 enregistrements
+2026-01-05 14:47:16 | INFO     | init_db |   📈 warehouses: 2 enregistrements
+2026-01-05 14:47:16 | INFO     | init_db |   📈 products: 39 enregistrements
+2026-01-05 14:47:16 | INFO     | init_db |   📈 safety_stocks: 39 enregistrements
+2026-01-05 14:47:16 | INFO     | init_db | ✅ Base de données initialisée avec succès!
+2026-01-05 14:47:16 | INFO     | init_db | 
+2026-01-05 14:47:16 | INFO     | init_db | ============================================================
+2026-01-05 14:47:16 | INFO     | init_db | 🎉 INITIALISATION TERMINÉE!
+2026-01-05 14:47:16 | INFO     | init_db | 
+2026-01-05 14:50:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:50:14 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 14:50:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:50:14 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-16
+2026-01-05 14:50:14 | INFO     | orchestrator | 📁 Répertoire scripts: scripts
+2026-01-05 14:50:14 | INFO     | orchestrator | ================================================================================
+2026-01-05 14:50:14 | INFO     | orchestrator | 
+2026-01-05 14:50:14 | INFO     | orchestrator | 🔍 Validation de l'environnement...
+2026-01-05 14:50:14 | INFO     | orchestrator | ✅ Tous les scripts sont présents
+2026-01-05 14:50:14 | INFO     | orchestrator | ✅ Environnement validé avec succès
+
+2026-01-05 14:50:14 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+
+2026-01-05 14:50:14 | INFO     | orchestrator | ÉTAPE 1/6: Génération des données
+2026-01-05 14:50:14 | INFO     | orchestrator | 📝 Génère les commandes magasin et snapshots de stock
+2026-01-05 14:50:14 | INFO     | orchestrator | ------------------------------------------------------------
+2026-01-05 14:50:14 | INFO     | orchestrator | 🚀 Exécution: python scripts/01_generate_data.py --date 2026-01-16
+2026-01-05 14:50:16 | INFO     | generate | 📅 Date: 2026-01-16
+2026-01-05 14:50:16 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 14:50:16 | INFO     | generate | 
+2026-01-05 14:50:16 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 14:50:16 | ERROR    | generate | ❌ Erreur: 'PostgresClient' object has no attribute 'get_warehouses'
+Traceback (most recent call last):
+  File "/app/scripts/01_generate_data.py", line 170, in main
+    generate_data(args.date, args.num_orders)
+  File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+    result = func(*args, **kwargs)
+  File "/app/scripts/01_generate_data.py", line 44, in generate_data
+    warehouses = pg.get_warehouses()
+AttributeError: 'PostgresClient' object has no attribute 'get_warehouses'
+2026-01-05 14:50:17 | INFO     | orchestrator |     2026-01-05 14:50:16 | [32mINFO    [0m | generate | 📅 Date: 2026-01-16
+2026-01-05 14:50:17 | INFO     | orchestrator |     2026-01-05 14:50:16 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 14:50:17 | INFO     | orchestrator |     2026-01-05 14:50:16 | [32mINFO    [0m | generate | 
+2026-01-05 14:50:17 | INFO     | orchestrator |     2026-01-05 14:50:16 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 14:50:17 | INFO     | orchestrator |     2026-01-05 14:50:16 | [31mERROR   [0m | generate | ❌ Erreur: 'PostgresClient' object has no attribute 'get_warehouses'
+2026-01-05 14:50:17 | INFO     | orchestrator |     Traceback (most recent call last):
+2026-01-05 14:50:17 | INFO     | orchestrator |       File "/app/scripts/01_generate_data.py", line 170, in main
+2026-01-05 14:50:17 | INFO     | orchestrator |         generate_data(args.date, args.num_orders)
+2026-01-05 14:50:17 | INFO     | orchestrator |       File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 14:50:17 | INFO     | orchestrator |         result = func(*args, **kwargs)
+2026-01-05 14:50:17 | INFO     | orchestrator |       File "/app/scripts/01_generate_data.py", line 44, in generate_data
+2026-01-05 14:50:17 | INFO     | orchestrator |         warehouses = pg.get_warehouses()
+2026-01-05 14:50:17 | INFO     | orchestrator |     AttributeError: 'PostgresClient' object has no attribute 'get_warehouses'
+2026-01-05 14:50:17 | ERROR    | orchestrator | ❌ Script échoué avec code 1
+2026-01-05 14:50:17 | ERROR    | orchestrator |     /app/scripts/../scripts/utils/postgres_client.py:75: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+2026-01-05 14:50:17 | ERROR    | orchestrator |       df = pd.read_sql_query(query, conn, params=params)
+2026-01-05 14:50:17 | ERROR    | orchestrator |     ------------------------------------------------------------
+2026-01-05 14:50:17 | ERROR    | orchestrator |     ❌ ERREUR: Génération des données
+2026-01-05 14:50:17 | ERROR    | orchestrator |     ⏱️  Durée: 0.62s
+2026-01-05 14:50:17 | ERROR    | orchestrator |     💥 Exception: 'PostgresClient' object has no attribute 'get_warehouses'
+2026-01-05 14:50:17 | ERROR    | orchestrator |     ============================================================
+2026-01-05 14:50:17 | ERROR    | orchestrator |     Traceback (most recent call last):
+2026-01-05 14:50:17 | ERROR    | orchestrator |       File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 14:50:17 | ERROR    | orchestrator |         result = func(*args, **kwargs)
+2026-01-05 14:50:17 | ERROR    | orchestrator |       File "/app/scripts/01_generate_data.py", line 44, in generate_data
+2026-01-05 14:50:17 | ERROR    | orchestrator |         warehouses = pg.get_warehouses()
+2026-01-05 14:50:17 | ERROR    | orchestrator |     AttributeError: 'PostgresClient' object has no attribute 'get_warehouses'
+2026-01-05 14:50:17 | ERROR    | orchestrator | ❌ Étape échouée en 2.71s
+2026-01-05 14:50:17 | ERROR    | orchestrator | ❌ Pipeline interrompu (--skip-failed non activé)
+2026-01-05 16:05:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:05:08 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 16:05:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:05:08 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-17
+2026-01-05 16:05:08 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 16:05:08 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:05:08 | INFO     | orchestrator | 
+2026-01-05 16:05:08 | INFO     | orchestrator | 
+2026-01-05 16:05:08 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 16:05:08 | INFO     | orchestrator | 
+2026-01-05 16:05:08 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-17 --num-orders 500
+2026-01-05 16:05:10 | INFO     | generate | 📅 Date: 2026-01-17
+2026-01-05 16:05:10 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 16:05:10 | INFO     | generate | 
+2026-01-05 16:05:10 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:05:10 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 16:05:10 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:05:10 | INFO     | generate | 
+2026-01-05 16:05:10 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 16:05:11 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 16:05:11 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-17/orders.json
+2026-01-05 16:05:11 | INFO     | generate | 
+2026-01-05 16:05:11 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:05:11 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:05:11 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-17/stock.csv
+2026-01-05 16:05:11 | INFO     | generate | 
+2026-01-05 16:05:11 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 16:05:11 | INFO     | generate |    • Commandes: 500
+2026-01-05 16:05:11 | INFO     | generate |    • Magasins: 8
+2026-01-05 16:05:11 | INFO     | generate |    • Items commandés: 3318
+2026-01-05 16:05:11 | INFO     | generate |    • Valeur totale: 691,048.00 MAD
+2026-01-05 16:05:11 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 16:05:11 | INFO     | generate | 
+2026-01-05 16:05:11 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 📅 Date: 2026-01-17
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:10 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-17/orders.json
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | 
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-17/stock.csv
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | 
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    • Items commandés: 3318
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    • Valeur totale: 691,048.00 MAD
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | 
+2026-01-05 16:05:11 | INFO     | orchestrator |    2026-01-05 16:05:11 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 16:05:11 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 16:05:11 | INFO     | orchestrator | 
+2026-01-05 16:05:11 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-17
+2026-01-05 16:05:16 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-17
+2026-01-05 16:05:16 | INFO     | ingest | 
+2026-01-05 16:05:16 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:05:17 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-17']' returned non-zero exit status 1.
+2026-01-05 16:05:17 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 16:05:17 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 16:05:17 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 16:05:17 | ERROR    | orchestrator |    2026-01-05 16:05:16 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-17
+2026-01-05 16:05:17 | ERROR    | orchestrator |    2026-01-05 16:05:16 | [32mINFO    [0m | ingest | 
+2026-01-05 16:05:17 | ERROR    | orchestrator |    2026-01-05 16:05:16 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:05:17 | ERROR    | orchestrator |    2026-01-05 16:05:17 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-17']' returned non-zero exit status 1.
+2026-01-05 16:05:17 | ERROR    | orchestrator |    STDERR:
+2026-01-05 16:05:17 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-17': Input/output error
+2026-01-05 16:05:17 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 16:05:17 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 16:05:17 | ERROR    | orchestrator |    ⏱️  Durée: 4.81s
+2026-01-05 16:05:17 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-17']' returned non-zero exit status 1.
+2026-01-05 16:05:17 | ERROR    | orchestrator |    ============================================================
+2026-01-05 16:05:17 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 16:05:17 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 16:05:17 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 16:05:17 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 16:05:17 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 16:05:17 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 16:05:17 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 16:05:17 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 16:05:17 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 16:05:17 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 16:05:17 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 16:05:17 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-17']' returned non-zero exit status 1.
+2026-01-05 16:05:17 | ERROR    | orchestrator | 
+2026-01-05 16:05:17 | ERROR    | orchestrator | ================================================================================
+2026-01-05 16:05:17 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 16:05:17 | ERROR    | orchestrator | ================================================================================
+2026-01-05 16:09:42 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:09:42 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 16:09:42 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:09:42 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-07
+2026-01-05 16:09:42 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 16:09:42 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:09:42 | INFO     | orchestrator | 
+2026-01-05 16:09:42 | INFO     | orchestrator | 
+2026-01-05 16:09:42 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 16:09:42 | INFO     | orchestrator | 
+2026-01-05 16:09:42 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-07 --num-orders 500
+2026-01-05 16:09:43 | INFO     | generate | 📅 Date: 2026-01-07
+2026-01-05 16:09:43 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 16:09:43 | INFO     | generate | 
+2026-01-05 16:09:43 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:09:43 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 16:09:43 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:09:43 | INFO     | generate | 
+2026-01-05 16:09:43 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 16:09:44 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 16:09:44 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-07/orders.json
+2026-01-05 16:09:44 | INFO     | generate | 
+2026-01-05 16:09:44 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:09:44 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:09:44 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-07/stock.csv
+2026-01-05 16:09:44 | INFO     | generate | 
+2026-01-05 16:09:44 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 16:09:44 | INFO     | generate |    • Commandes: 500
+2026-01-05 16:09:44 | INFO     | generate |    • Magasins: 8
+2026-01-05 16:09:44 | INFO     | generate |    • Items commandés: 3237
+2026-01-05 16:09:44 | INFO     | generate |    • Valeur totale: 643,484.00 MAD
+2026-01-05 16:09:44 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 16:09:44 | INFO     | generate | 
+2026-01-05 16:09:44 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 📅 Date: 2026-01-07
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:43 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-07/orders.json
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | 
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-07/stock.csv
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | 
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    • Items commandés: 3237
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    • Valeur totale: 643,484.00 MAD
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | 
+2026-01-05 16:09:44 | INFO     | orchestrator |    2026-01-05 16:09:44 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 16:09:44 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 16:09:44 | INFO     | orchestrator | 
+2026-01-05 16:09:44 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-07
+2026-01-05 16:09:47 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-07
+2026-01-05 16:09:47 | INFO     | ingest | 
+2026-01-05 16:09:47 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:09:48 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:09:48 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 16:09:48 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 16:09:48 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 16:09:48 | ERROR    | orchestrator |    2026-01-05 16:09:47 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-07
+2026-01-05 16:09:48 | ERROR    | orchestrator |    2026-01-05 16:09:47 | [32mINFO    [0m | ingest | 
+2026-01-05 16:09:48 | ERROR    | orchestrator |    2026-01-05 16:09:47 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:09:48 | ERROR    | orchestrator |    2026-01-05 16:09:48 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:09:48 | ERROR    | orchestrator |    STDERR:
+2026-01-05 16:09:48 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-07': Input/output error
+2026-01-05 16:09:48 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 16:09:48 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 16:09:48 | ERROR    | orchestrator |    ⏱️  Durée: 2.78s
+2026-01-05 16:09:48 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:09:48 | ERROR    | orchestrator |    ============================================================
+2026-01-05 16:09:48 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 16:09:48 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 16:09:48 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 16:09:48 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 16:09:48 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 16:09:48 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 16:09:48 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 16:09:48 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 16:09:48 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 16:09:48 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 16:09:48 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 16:09:48 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:09:48 | ERROR    | orchestrator | 
+2026-01-05 16:09:48 | ERROR    | orchestrator | ================================================================================
+2026-01-05 16:09:48 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 16:09:48 | ERROR    | orchestrator | ================================================================================
+2026-01-05 16:14:40 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:14:40 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-05 16:14:40 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:14:40 | INFO     | orchestrator | 📅 Date d'exécution: 2026-01-07
+2026-01-05 16:14:40 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-05 16:14:40 | INFO     | orchestrator | ================================================================================
+2026-01-05 16:14:40 | INFO     | orchestrator | 
+2026-01-05 16:14:40 | INFO     | orchestrator | 
+2026-01-05 16:14:40 | INFO     | orchestrator | 🚀 DÉMARRAGE DU PIPELINE COMPLET
+2026-01-05 16:14:40 | INFO     | orchestrator | 
+2026-01-05 16:14:40 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/01_generate_data.py --date 2026-01-07 --num-orders 500
+2026-01-05 16:14:41 | INFO     | generate | 📅 Date: 2026-01-07
+2026-01-05 16:14:41 | INFO     | generate | 📦 Commandes à générer: 500
+2026-01-05 16:14:41 | INFO     | generate | 
+2026-01-05 16:14:41 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:14:42 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-05 16:14:42 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:14:42 | INFO     | generate | 
+2026-01-05 16:14:42 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-05 16:14:43 | INFO     | generate |    ✓ 500 commandes générées
+2026-01-05 16:14:43 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-01-07/orders.json
+2026-01-05 16:14:43 | INFO     | generate | 
+2026-01-05 16:14:43 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:14:43 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:14:43 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-01-07/stock.csv
+2026-01-05 16:14:43 | INFO     | generate | 
+2026-01-05 16:14:43 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-05 16:14:43 | INFO     | generate |    • Commandes: 500
+2026-01-05 16:14:43 | INFO     | generate |    • Magasins: 8
+2026-01-05 16:14:43 | INFO     | generate |    • Items commandés: 3190
+2026-01-05 16:14:43 | INFO     | generate |    • Valeur totale: 648,459.50 MAD
+2026-01-05 16:14:43 | INFO     | generate |    • Lignes de stock: 78
+2026-01-05 16:14:43 | INFO     | generate | 
+2026-01-05 16:14:43 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:41 | [32mINFO    [0m | generate | 📅 Date: 2026-01-07
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:41 | [32mINFO    [0m | generate | 📦 Commandes à générer: 500
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:41 | [32mINFO    [0m | generate | 
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:41 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:42 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:42 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:42 | [32mINFO    [0m | generate | 
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:42 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    ✓ 500 commandes générées
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-01-07/orders.json
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | 
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-01-07/stock.csv
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | 
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    • Commandes: 500
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    • Items commandés: 3190
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    • Valeur totale: 648,459.50 MAD
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | 
+2026-01-05 16:14:43 | INFO     | orchestrator |    2026-01-05 16:14:43 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-05 16:14:43 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-05 16:14:43 | INFO     | orchestrator | 
+2026-01-05 16:14:43 | INFO     | orchestrator | 🚀 Exécution: python /app/scripts/02_ingest_to_hdfs.py --date 2026-01-07
+2026-01-05 16:14:45 | INFO     | ingest | 📂 Ingestion pour la date: 2026-01-07
+2026-01-05 16:14:45 | INFO     | ingest | 
+2026-01-05 16:14:45 | INFO     | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:14:47 | ERROR    | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:14:47 | ERROR    | orchestrator | ❌ Erreur lors de l'exécution de 02_ingest_to_hdfs.py
+2026-01-05 16:14:47 | ERROR    | orchestrator |    Code de retour: 1
+2026-01-05 16:14:47 | ERROR    | orchestrator |    STDOUT:
+2026-01-05 16:14:47 | ERROR    | orchestrator |    2026-01-05 16:14:45 | [32mINFO    [0m | ingest | 📂 Ingestion pour la date: 2026-01-07
+2026-01-05 16:14:47 | ERROR    | orchestrator |    2026-01-05 16:14:45 | [32mINFO    [0m | ingest | 
+2026-01-05 16:14:47 | ERROR    | orchestrator |    2026-01-05 16:14:45 | [32mINFO    [0m | ingest | 📁 Création des répertoires HDFS...
+2026-01-05 16:14:47 | ERROR    | orchestrator |    2026-01-05 16:14:47 | [31mERROR   [0m | ingest | ❌ Erreur: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:14:47 | ERROR    | orchestrator |    STDERR:
+2026-01-05 16:14:47 | ERROR    | orchestrator |    Erreur HDFS: mkdir: `/raw/orders/2026-01-07': Input/output error
+2026-01-05 16:14:47 | ERROR    | orchestrator |    ------------------------------------------------------------
+2026-01-05 16:14:47 | ERROR    | orchestrator |    ❌ ERREUR: Ingestion des données vers HDFS
+2026-01-05 16:14:47 | ERROR    | orchestrator |    ⏱️  Durée: 2.74s
+2026-01-05 16:14:47 | ERROR    | orchestrator |    💥 Exception: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:14:47 | ERROR    | orchestrator |    ============================================================
+2026-01-05 16:14:47 | ERROR    | orchestrator |    Traceback (most recent call last):
+2026-01-05 16:14:47 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/logger.py", line 109, in wrapper
+2026-01-05 16:14:47 | ERROR    | orchestrator |        result = func(*args, **kwargs)
+2026-01-05 16:14:47 | ERROR    | orchestrator |      File "/app/scripts/02_ingest_to_hdfs.py", line 56, in ingest_to_hdfs
+2026-01-05 16:14:47 | ERROR    | orchestrator |        client.mkdir(hdfs_orders_dir, parents=True)
+2026-01-05 16:14:47 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 72, in mkdir
+2026-01-05 16:14:47 | ERROR    | orchestrator |        self._run_command(command)
+2026-01-05 16:14:47 | ERROR    | orchestrator |      File "/app/scripts/../scripts/utils/hdfs_client.py", line 48, in _run_command
+2026-01-05 16:14:47 | ERROR    | orchestrator |        result = subprocess.run(
+2026-01-05 16:14:47 | ERROR    | orchestrator |      File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+2026-01-05 16:14:47 | ERROR    | orchestrator |        raise CalledProcessError(retcode, process.args,
+2026-01-05 16:14:47 | ERROR    | orchestrator |    subprocess.CalledProcessError: Command '['hdfs', 'dfs', '-mkdir', '-p', '/raw/orders/2026-01-07']' returned non-zero exit status 1.
+2026-01-05 16:14:47 | ERROR    | orchestrator | 
+2026-01-05 16:14:47 | ERROR    | orchestrator | ================================================================================
+2026-01-05 16:14:47 | ERROR    | orchestrator | ❌ PIPELINE INTERROMPU À L'ÉTAPE 02
+2026-01-05 16:14:47 | ERROR    | orchestrator | ================================================================================

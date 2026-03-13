@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-008",
+  "supplier_name": "Unilever Maghreb",
+  "order_date": "2026-01-07",
+  "contact_email": "orders@unilever.ma",
+  "contact_phone": "+212 522 101 122",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "SAV-001",
+      "product_name": "Dove Savon 100g",
+      "category": "HYGIENE",
+      "quantity_ordered": 240,
+      "unit_price": 8.0,
+      "pack_size": 48,
+      "total_price": 1920.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 240,
+    "total_value": 1920.0,
+    "currency": "MAD"
+  }
+}

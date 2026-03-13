@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+SODA-001,Coca-Cola 1.5L,BOISSONS,348060,6,48,12.0,4176720.0,bouteille
+SODA-002,Fanta Orange 1.5L,BOISSONS,351640,6,48,11.0,3868040.0,bouteille
+SODA-003,Sprite 1.5L,BOISSONS,351040,6,48,11.0,3861440.0,bouteille

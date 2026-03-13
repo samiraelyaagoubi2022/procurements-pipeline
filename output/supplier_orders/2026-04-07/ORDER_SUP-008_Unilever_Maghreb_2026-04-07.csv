@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+SHAM-001,Clear Shampooing 400ml,HYGIENE,760,12,60,35.0,26600.0,bouteille
+SAV-001,Dove Savon 100g,HYGIENE,420,48,240,8.0,3360.0,pièce

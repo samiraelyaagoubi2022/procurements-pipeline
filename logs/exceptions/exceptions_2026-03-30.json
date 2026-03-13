@@ -1,0 +1,630 @@
+{
+  "date": "2026-03-30",
+  "total_exceptions": 78,
+  "exceptions": [
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "LESS-001",
+      "product_name": "Ariel Lessive Poudre 3kg",
+      "quantity": 352940,
+      "message": "Commande volumineuse: 352,940 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "HUILE-002",
+      "product_name": "Lesieur Olive Extra 1L",
+      "quantity": 348580,
+      "message": "Commande volumineuse: 348,580 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "MIEL-001",
+      "product_name": "Miel d'Oranger 500g",
+      "quantity": 347620,
+      "message": "Commande volumineuse: 347,620 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "HUILE-003",
+      "product_name": "Afia Huile Tournesol 2L",
+      "quantity": 354610,
+      "message": "Commande volumineuse: 354,610 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CAFE-001",
+      "product_name": "Nescafé Classic 100g",
+      "quantity": 350620,
+      "message": "Commande volumineuse: 350,620 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SHAM-001",
+      "product_name": "Clear Shampooing 400ml",
+      "quantity": 348040,
+      "message": "Commande volumineuse: 348,040 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CHOC-001",
+      "product_name": "Nestlé Dessert 200g",
+      "quantity": 349610,
+      "message": "Commande volumineuse: 349,610 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "HUILE-001",
+      "product_name": "Lesieur Cristal Huile 1L",
+      "quantity": 351030,
+      "message": "Commande volumineuse: 351,030 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CONF-001",
+      "product_name": "Confiture Aïcha 450g",
+      "quantity": 350410,
+      "message": "Commande volumineuse: 350,410 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "BEURRE-001",
+      "product_name": "Beurre Le Berger 250g",
+      "quantity": 348920,
+      "message": "Commande volumineuse: 348,920 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "OLIVE-001",
+      "product_name": "Olives Vertes 500g",
+      "quantity": 349360,
+      "message": "Commande volumineuse: 349,360 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "THE-001",
+      "product_name": "Thé Sultan 200g",
+      "quantity": 347920,
+      "message": "Commande volumineuse: 347,920 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "DENT-001",
+      "product_name": "Signal Dentifrice 75ml",
+      "quantity": 347290,
+      "message": "Commande volumineuse: 347,290 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "FROMAGE-001",
+      "product_name": "La Vache Qui Rit 8 portions",
+      "quantity": 349350,
+      "message": "Commande volumineuse: 349,350 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "RIZ-001",
+      "product_name": "Taureau Ailé Riz 1kg",
+      "quantity": 344950,
+      "message": "Commande volumineuse: 344,950 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "TOMATE-001",
+      "product_name": "Concentré Tomate 400g",
+      "quantity": 350460,
+      "message": "Commande volumineuse: 350,460 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SODA-001",
+      "product_name": "Coca-Cola 1.5L",
+      "quantity": 349760,
+      "message": "Commande volumineuse: 349,760 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "YAOURT-001",
+      "product_name": "Raibi Jamila Nature 1L",
+      "quantity": 348720,
+      "message": "Commande volumineuse: 348,720 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SODA-003",
+      "product_name": "Sprite 1.5L",
+      "quantity": 349950,
+      "message": "Commande volumineuse: 349,950 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "PATES-001",
+      "product_name": "Dari Couscous Fin 1kg",
+      "quantity": 349380,
+      "message": "Commande volumineuse: 349,380 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SODA-002",
+      "product_name": "Fanta Orange 1.5L",
+      "quantity": 349240,
+      "message": "Commande volumineuse: 349,240 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SUCRE-002",
+      "product_name": "Cosumar Morceaux 1kg",
+      "quantity": 351580,
+      "message": "Commande volumineuse: 351,580 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SARDINE-001",
+      "product_name": "Sardines Marocaines 125g",
+      "quantity": 351230,
+      "message": "Commande volumineuse: 351,230 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SUCRE-001",
+      "product_name": "Cosumar Sucre Blanc 1kg",
+      "quantity": 348030,
+      "message": "Commande volumineuse: 348,030 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "VIN-001",
+      "product_name": "Vinaigre Cristal 1L",
+      "quantity": 346390,
+      "message": "Commande volumineuse: 346,390 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "LAIT-001",
+      "product_name": "Centrale Lait Entier 1L",
+      "quantity": 350470,
+      "message": "Commande volumineuse: 350,470 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "HARISSA-001",
+      "product_name": "Harissa Cap Bon 200g",
+      "quantity": 350390,
+      "message": "Commande volumineuse: 350,390 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CONS-001",
+      "product_name": "Lesieur Sardines 125g",
+      "quantity": 349360,
+      "message": "Commande volumineuse: 349,360 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SAV-001",
+      "product_name": "Dove Savon 100g",
+      "quantity": 351060,
+      "message": "Commande volumineuse: 351,060 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "LAIT-002",
+      "product_name": "Centrale Lait Demi-Écrémé 1L",
+      "quantity": 346120,
+      "message": "Commande volumineuse: 346,120 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "PATES-003",
+      "product_name": "Dari Pâtes Macaroni 500g",
+      "quantity": 352150,
+      "message": "Commande volumineuse: 352,150 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "BISC-002",
+      "product_name": "Bimo Sésame 200g",
+      "quantity": 348220,
+      "message": "Commande volumineuse: 348,220 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "EAU-002",
+      "product_name": "Oulmès Gazeuse 1L",
+      "quantity": 349560,
+      "message": "Commande volumineuse: 349,560 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "PATES-002",
+      "product_name": "Dari Vermicelles 500g",
+      "quantity": 349390,
+      "message": "Commande volumineuse: 349,390 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CHOC-002",
+      "product_name": "KitKat 4 Fingers 41.5g",
+      "quantity": 349520,
+      "message": "Commande volumineuse: 349,520 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "BISC-003",
+      "product_name": "Bimo Gaufrettes 125g",
+      "quantity": 351700,
+      "message": "Commande volumineuse: 351,700 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "EAU-001",
+      "product_name": "Oulmès Eau Plate 1.5L",
+      "quantity": 354510,
+      "message": "Commande volumineuse: 354,510 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "BISC-001",
+      "product_name": "Bimo Maryse Chocolat 100g",
+      "quantity": 350900,
+      "message": "Commande volumineuse: 350,900 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "SEL-001",
+      "product_name": "Sel Fin 1kg",
+      "quantity": 345030,
+      "message": "Commande volumineuse: 345,030 unités"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "LESS-001",
+      "product_name": "Ariel Lessive Poudre 3kg",
+      "value": 33529300.0,
+      "message": "Valeur élevée: 33,529,300.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "HUILE-002",
+      "product_name": "Lesieur Olive Extra 1L",
+      "value": 29629300.0,
+      "message": "Valeur élevée: 29,629,300.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "MIEL-001",
+      "product_name": "Miel d'Oranger 500g",
+      "value": 22595300.0,
+      "message": "Valeur élevée: 22,595,300.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "HUILE-003",
+      "product_name": "Afia Huile Tournesol 2L",
+      "value": 17021280.0,
+      "message": "Valeur élevée: 17,021,280.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "CAFE-001",
+      "product_name": "Nescafé Classic 100g",
+      "value": 15777900.0,
+      "message": "Valeur élevée: 15,777,900.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SHAM-001",
+      "product_name": "Clear Shampooing 400ml",
+      "value": 12181400.0,
+      "message": "Valeur élevée: 12,181,400.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "CHOC-001",
+      "product_name": "Nestlé Dessert 200g",
+      "value": 11187520.0,
+      "message": "Valeur élevée: 11,187,520.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "HUILE-001",
+      "product_name": "Lesieur Cristal Huile 1L",
+      "value": 9828840.0,
+      "message": "Valeur élevée: 9,828,840.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "CONF-001",
+      "product_name": "Confiture Aïcha 450g",
+      "value": 7709020.0,
+      "message": "Valeur élevée: 7,709,020.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "BEURRE-001",
+      "product_name": "Beurre Le Berger 250g",
+      "value": 7676240.0,
+      "message": "Valeur élevée: 7,676,240.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "OLIVE-001",
+      "product_name": "Olives Vertes 500g",
+      "value": 6288480.0,
+      "message": "Valeur élevée: 6,288,480.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "THE-001",
+      "product_name": "Thé Sultan 200g",
+      "value": 6262560.0,
+      "message": "Valeur élevée: 6,262,560.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "DENT-001",
+      "product_name": "Signal Dentifrice 75ml",
+      "value": 6251220.0,
+      "message": "Valeur élevée: 6,251,220.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "FROMAGE-001",
+      "product_name": "La Vache Qui Rit 8 portions",
+      "value": 5240250.0,
+      "message": "Valeur élevée: 5,240,250.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "RIZ-001",
+      "product_name": "Taureau Ailé Riz 1kg",
+      "value": 4829300.0,
+      "message": "Valeur élevée: 4,829,300.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "TOMATE-001",
+      "product_name": "Concentré Tomate 400g",
+      "value": 4205520.0,
+      "message": "Valeur élevée: 4,205,520.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SODA-001",
+      "product_name": "Coca-Cola 1.5L",
+      "value": 4197120.0,
+      "message": "Valeur élevée: 4,197,120.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "YAOURT-001",
+      "product_name": "Raibi Jamila Nature 1L",
+      "value": 4184640.0,
+      "message": "Valeur élevée: 4,184,640.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SODA-003",
+      "product_name": "Sprite 1.5L",
+      "value": 3849450.0,
+      "message": "Valeur élevée: 3,849,450.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "PATES-001",
+      "product_name": "Dari Couscous Fin 1kg",
+      "value": 3843180.0,
+      "message": "Valeur élevée: 3,843,180.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SODA-002",
+      "product_name": "Fanta Orange 1.5L",
+      "value": 3841640.0,
+      "message": "Valeur élevée: 3,841,640.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SUCRE-002",
+      "product_name": "Cosumar Morceaux 1kg",
+      "value": 3515800.0,
+      "message": "Valeur élevée: 3,515,800.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SARDINE-001",
+      "product_name": "Sardines Marocaines 125g",
+      "value": 3161070.0,
+      "message": "Valeur élevée: 3,161,070.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SUCRE-001",
+      "product_name": "Cosumar Sucre Blanc 1kg",
+      "value": 3132270.0,
+      "message": "Valeur élevée: 3,132,270.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "VIN-001",
+      "product_name": "Vinaigre Cristal 1L",
+      "value": 3117510.0,
+      "message": "Valeur élevée: 3,117,510.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "LAIT-001",
+      "product_name": "Centrale Lait Entier 1L",
+      "value": 2978995.0,
+      "message": "Valeur élevée: 2,978,995.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "HARISSA-001",
+      "product_name": "Harissa Cap Bon 200g",
+      "value": 2978315.0,
+      "message": "Valeur élevée: 2,978,315.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "CONS-001",
+      "product_name": "Lesieur Sardines 125g",
+      "value": 2969560.0,
+      "message": "Valeur élevée: 2,969,560.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SAV-001",
+      "product_name": "Dove Savon 100g",
+      "value": 2808480.0,
+      "message": "Valeur élevée: 2,808,480.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "LAIT-002",
+      "product_name": "Centrale Lait Demi-Écrémé 1L",
+      "value": 2768960.0,
+      "message": "Valeur élevée: 2,768,960.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "PATES-003",
+      "product_name": "Dari Pâtes Macaroni 500g",
+      "value": 2465050.0,
+      "message": "Valeur élevée: 2,465,050.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "BISC-002",
+      "product_name": "Bimo Sésame 200g",
+      "value": 2437540.0,
+      "message": "Valeur élevée: 2,437,540.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "EAU-002",
+      "product_name": "Oulmès Gazeuse 1L",
+      "value": 2272140.0,
+      "message": "Valeur élevée: 2,272,140.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "PATES-002",
+      "product_name": "Dari Vermicelles 500g",
+      "value": 2271035.0,
+      "message": "Valeur élevée: 2,271,035.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "CHOC-002",
+      "product_name": "KitKat 4 Fingers 41.5g",
+      "value": 2097120.0,
+      "message": "Valeur élevée: 2,097,120.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "BISC-003",
+      "product_name": "Bimo Gaufrettes 125g",
+      "value": 1934350.0,
+      "message": "Valeur élevée: 1,934,350.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "EAU-001",
+      "product_name": "Oulmès Eau Plate 1.5L",
+      "value": 1772550.0,
+      "message": "Valeur élevée: 1,772,550.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "BISC-001",
+      "product_name": "Bimo Maryse Chocolat 100g",
+      "value": 1579050.0,
+      "message": "Valeur élevée: 1,579,050.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SEL-001",
+      "product_name": "Sel Fin 1kg",
+      "value": 1380120.0,
+      "message": "Valeur élevée: 1,380,120.00 MAD"
+    }
+  ]
+}

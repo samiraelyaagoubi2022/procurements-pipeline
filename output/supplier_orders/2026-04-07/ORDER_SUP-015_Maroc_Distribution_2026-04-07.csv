@@ -1,0 +1,9 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+MIEL-001,Miel d'Oranger 500g,EPICERIE,1270,12,60,65.0,82550.0,pot
+CONF-001,Confiture Aïcha 450g,EPICERIE,1110,12,72,22.0,24420.0,pot
+OLIVE-001,Olives Vertes 500g,CONSERVES,850,12,72,18.0,15300.0,bocal
+TOMATE-001,Concentré Tomate 400g,CONSERVES,570,24,144,12.0,6840.0,boîte
+THE-001,Thé Sultan 200g,EPICERIE,360,20,100,18.0,6480.0,paquet
+VIN-001,Vinaigre Cristal 1L,EPICERIE,340,12,72,9.0,3060.0,bouteille
+SARDINE-001,Sardines Marocaines 125g,CONSERVES,250,48,240,9.0,2250.0,boîte
+HARISSA-001,Harissa Cap Bon 200g,EPICERIE,30,24,144,8.5,255.0,tube

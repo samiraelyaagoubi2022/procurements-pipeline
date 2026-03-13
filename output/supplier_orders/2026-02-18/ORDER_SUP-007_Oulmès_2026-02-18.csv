@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+EAU-001,Oulmès Eau Plate 1.5L,BOISSONS,340,6,60,5.0,1700.0,bouteille
+EAU-002,Oulmès Gazeuse 1L,BOISSONS,240,12,72,6.5,1560.0,bouteille

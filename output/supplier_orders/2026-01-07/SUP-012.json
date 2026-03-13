@@ -1,0 +1,34 @@
+{
+  "supplier_id": "SUP-012",
+  "supplier_name": "Savola Maroc",
+  "order_date": "2026-01-07",
+  "contact_email": "service@savola.ma",
+  "contact_phone": "+212 522 545 566",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "HUILE-003",
+      "product_name": "Afia Huile Tournesol 2L",
+      "category": "EPICERIE",
+      "quantity_ordered": 540,
+      "unit_price": 48.0,
+      "pack_size": 6,
+      "total_price": 25920.0
+    },
+    {
+      "sku": "RIZ-001",
+      "product_name": "Taureau Ailé Riz 1kg",
+      "category": "EPICERIE",
+      "quantity_ordered": 220,
+      "unit_price": 14.0,
+      "pack_size": 10,
+      "total_price": 3080.0
+    }
+  ],
+  "summary": {
+    "total_items": 2,
+    "total_quantity": 760,
+    "total_value": 29000.0,
+    "currency": "MAD"
+  }
+}

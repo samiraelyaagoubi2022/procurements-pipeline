@@ -1,0 +1,14 @@
+{
+  "date": "2026-01-07",
+  "total_exceptions": 1,
+  "exceptions": [
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "BISC-001",
+      "product_name": "Bimo Maryse Chocolat 100g",
+      "quantity": 1032,
+      "message": "Commande volumineuse: 1,032 unités"
+    }
+  ]
+}

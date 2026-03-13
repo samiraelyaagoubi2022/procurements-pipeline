@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-009",
+  "supplier_name": "Nestlé Maroc",
+  "order_date": "2026-01-09",
+  "contact_email": "achats@nestle.ma",
+  "contact_phone": "+212 522 212 233",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "CHOC-001",
+      "product_name": "Nestlé Dessert 200g",
+      "category": "CONFISERIE",
+      "quantity_ordered": 400,
+      "unit_price": 32.0,
+      "pack_size": 20,
+      "total_price": 12800.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 400,
+    "total_value": 12800.0,
+    "currency": "MAD"
+  }
+}

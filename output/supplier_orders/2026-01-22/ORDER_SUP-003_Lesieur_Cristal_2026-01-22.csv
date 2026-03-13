@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+HUILE-001,Lesieur Cristal Huile 1L,EPICERIE,690,12,72,28.0,19320.0,bouteille
+HUILE-002,Lesieur Olive Extra 1L,EPICERIE,90,6,36,85.0,7650.0,bouteille

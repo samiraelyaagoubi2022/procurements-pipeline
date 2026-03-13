@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+CHOC-002,KitKat 4 Fingers 41.5g,CONFISERIE,650,36,180,6.0,3900.0,barre
+CAFE-001,Nescafé Classic 100g,EPICERIE,70,12,60,45.0,3150.0,pot

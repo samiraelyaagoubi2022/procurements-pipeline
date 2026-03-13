@@ -1,0 +1,8 @@
+2026-01-08 21:09:08 | [32mINFO    [0m | aggregate | 📊 Agrégation pour la date: 2026-01-30
+2026-01-08 21:09:08 | [32mINFO    [0m | aggregate | 
+2026-01-08 21:09:08 | [32mINFO    [0m | aggregate | 🔌 Connexion à Presto/Trino...
+2026-01-08 21:09:08 | [31mERROR   [0m | aggregate | ❌ Erreur lors de l'agrégation: Impossible de se connecter à Presto
+Traceback (most recent call last):
+  File "/app/scripts/03_aggregate_orders.py", line 43, in aggregate_orders
+    raise Exception("Impossible de se connecter à Presto")
+Exception: Impossible de se connecter à Presto

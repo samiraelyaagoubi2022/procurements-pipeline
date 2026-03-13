@@ -1,0 +1,34 @@
+{
+  "supplier_id": "SUP-009",
+  "supplier_name": "Nestlé Maroc",
+  "order_date": "2026-01-10",
+  "contact_email": "achats@nestle.ma",
+  "contact_phone": "+212 522 212 233",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "CHOC-001",
+      "product_name": "Nestlé Dessert 200g",
+      "category": "CONFISERIE",
+      "quantity_ordered": 200,
+      "unit_price": 32.0,
+      "pack_size": 20,
+      "total_price": 6400.0
+    },
+    {
+      "sku": "CHOC-002",
+      "product_name": "KitKat 4 Fingers 41.5g",
+      "category": "CONFISERIE",
+      "quantity_ordered": 576,
+      "unit_price": 6.0,
+      "pack_size": 36,
+      "total_price": 3456.0
+    }
+  ],
+  "summary": {
+    "total_items": 2,
+    "total_quantity": 776,
+    "total_value": 9856.0,
+    "currency": "MAD"
+  }
+}

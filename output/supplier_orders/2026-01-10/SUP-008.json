@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-008",
+  "supplier_name": "Unilever Maghreb",
+  "order_date": "2026-01-10",
+  "contact_email": "orders@unilever.ma",
+  "contact_phone": "+212 522 101 122",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "SHAM-001",
+      "product_name": "Clear Shampooing 400ml",
+      "category": "HYGIENE",
+      "quantity_ordered": 60,
+      "unit_price": 35.0,
+      "pack_size": 12,
+      "total_price": 2100.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 60,
+    "total_value": 2100.0,
+    "currency": "MAD"
+  }
+}

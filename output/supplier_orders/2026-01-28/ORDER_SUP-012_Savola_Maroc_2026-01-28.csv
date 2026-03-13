@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+HUILE-003,Afia Huile Tournesol 2L,EPICERIE,450,6,36,48.0,21600.0,bouteille
+RIZ-001,Taureau Ailé Riz 1kg,EPICERIE,300,10,50,14.0,4200.0,kg

@@ -1,0 +1,34 @@
+{
+  "supplier_id": "SUP-008",
+  "supplier_name": "Unilever Maghreb",
+  "order_date": "2026-01-25",
+  "contact_email": "orders@unilever.ma",
+  "contact_phone": "+212 522 101 122",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "SAV-001",
+      "product_name": "Dove Savon 100g",
+      "category": "HYGIENE",
+      "quantity_ordered": 624,
+      "unit_price": 8.0,
+      "pack_size": 48,
+      "total_price": 4992.0
+    },
+    {
+      "sku": "SHAM-001",
+      "product_name": "Clear Shampooing 400ml",
+      "category": "HYGIENE",
+      "quantity_ordered": 636,
+      "unit_price": 35.0,
+      "pack_size": 12,
+      "total_price": 22260.0
+    }
+  ],
+  "summary": {
+    "total_items": 2,
+    "total_quantity": 1260,
+    "total_value": 27252.0,
+    "currency": "MAD"
+  }
+}

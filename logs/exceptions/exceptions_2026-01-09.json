@@ -1,0 +1,14 @@
+{
+  "date": "2026-01-09",
+  "total_exceptions": 1,
+  "exceptions": [
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "LESS-001",
+      "product_name": "Ariel Lessive Poudre 3kg",
+      "value": 52820.0,
+      "message": "Valeur élevée: 52,820.00 MAD"
+    }
+  ]
+}

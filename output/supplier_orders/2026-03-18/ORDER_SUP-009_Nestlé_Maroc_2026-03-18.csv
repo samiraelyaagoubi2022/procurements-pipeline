@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+CAFE-001,Nescafé Classic 100g,EPICERIE,15920,12,60,45.0,716400.0,pot
+CHOC-001,Nestlé Dessert 200g,CONFISERIE,16970,20,100,32.0,543040.0,tablette
+CHOC-002,KitKat 4 Fingers 41.5g,CONFISERIE,17170,36,180,6.0,103020.0,barre

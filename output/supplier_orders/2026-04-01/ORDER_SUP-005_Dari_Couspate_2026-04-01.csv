@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+PATES-001,Dari Couscous Fin 1kg,EPICERIE,345780,10,50,11.0,3803580.0,kg
+PATES-003,Dari Pâtes Macaroni 500g,EPICERIE,349260,20,100,7.0,2444820.0,paquet
+PATES-002,Dari Vermicelles 500g,EPICERIE,349820,20,100,6.5,2273830.0,paquet

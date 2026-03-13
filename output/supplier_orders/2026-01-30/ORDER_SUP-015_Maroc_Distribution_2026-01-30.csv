@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+OLIVE-001,Olives Vertes 500g,CONSERVES,230,12,72,18.0,4140.0,bocal
+TOMATE-001,Concentré Tomate 400g,CONSERVES,130,24,144,12.0,1560.0,boîte
+SEL-001,Sel Fin 1kg,EPICERIE,30,20,100,4.0,120.0,kg

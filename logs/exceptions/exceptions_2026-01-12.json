@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-12",
+  "total_exceptions": 3,
+  "exceptions": [
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "VIN-001",
+      "product_name": "Produit 37",
+      "value": 85000.0,
+      "message": "Valeur élevée: 85,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "PATES-003",
+      "product_name": "Produit 24",
+      "value": 68000.0,
+      "message": "Valeur élevée: 68,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "OLIVE-001",
+      "product_name": "Produit 21",
+      "value": 53000.0,
+      "message": "Valeur élevée: 53,000.00 MAD"
+    }
+  ]
+}

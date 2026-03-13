@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-014",
+  "supplier_name": "Procter & Gamble Maroc",
+  "order_date": "2026-01-08",
+  "contact_email": "commandes@pg.ma",
+  "contact_phone": "+212 522 767 788",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "LESS-001",
+      "product_name": "Ariel Lessive Poudre 3kg",
+      "category": "HYGIENE",
+      "quantity_ordered": 116,
+      "unit_price": 95.0,
+      "pack_size": 4,
+      "total_price": 11020.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 116,
+    "total_value": 11020.0,
+    "currency": "MAD"
+  }
+}

@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+BISC-002,Bimo Sésame 200g,BISCUITERIE,690,20,120,7.0,4830.0,paquet
+BISC-003,Bimo Gaufrettes 125g,BISCUITERIE,430,24,144,5.5,2365.0,paquet

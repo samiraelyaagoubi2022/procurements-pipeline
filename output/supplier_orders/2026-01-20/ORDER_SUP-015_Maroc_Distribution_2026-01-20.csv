@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+MIEL-001,Miel d'Oranger 500g,EPICERIE,270,12,60,65.0,17550.0,pot
+CONF-001,Confiture Aïcha 450g,EPICERIE,460,12,72,22.0,10120.0,pot
+TOMATE-001,Concentré Tomate 400g,CONSERVES,250,24,144,12.0,3000.0,boîte

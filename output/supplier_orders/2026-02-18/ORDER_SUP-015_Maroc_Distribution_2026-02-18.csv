@@ -1,0 +1,6 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+OLIVE-001,Olives Vertes 500g,CONSERVES,530,12,72,18.0,9540.0,bocal
+THE-001,Thé Sultan 200g,EPICERIE,410,20,100,18.0,7380.0,paquet
+CONF-001,Confiture Aïcha 450g,EPICERIE,170,12,72,22.0,3740.0,pot
+SEL-001,Sel Fin 1kg,EPICERIE,190,20,100,4.0,760.0,kg
+VIN-001,Vinaigre Cristal 1L,EPICERIE,10,12,72,9.0,90.0,bouteille

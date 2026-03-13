@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-004",
+  "supplier_name": "Cosumar",
+  "order_date": "2026-01-10",
+  "contact_email": "commandes@cosumar.ma",
+  "contact_phone": "+212 522 667 788",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "SUCRE-002",
+      "product_name": "Cosumar Morceaux 1kg",
+      "category": "EPICERIE",
+      "quantity_ordered": 260,
+      "unit_price": 10.0,
+      "pack_size": 20,
+      "total_price": 2600.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 260,
+    "total_value": 2600.0,
+    "currency": "MAD"
+  }
+}

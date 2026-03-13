@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+YAOURT-001,Raibi Jamila Nature 1L,PRODUITS_LAITIERS,500,6,48,12.0,6000.0,litre
+LAIT-002,Centrale Lait Demi-Écrémé 1L,PRODUITS_LAITIERS,70,6,60,8.0,560.0,litre

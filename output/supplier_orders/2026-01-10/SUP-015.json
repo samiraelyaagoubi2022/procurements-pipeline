@@ -1,0 +1,79 @@
+{
+  "supplier_id": "SUP-015",
+  "supplier_name": "Maroc Distribution",
+  "order_date": "2026-01-10",
+  "contact_email": "service@marocdist.ma",
+  "contact_phone": "+212 522 878 899",
+  "lead_time_days": 1,
+  "items": [
+    {
+      "sku": "CONF-001",
+      "product_name": "Confiture Aïcha 450g",
+      "category": "EPICERIE",
+      "quantity_ordered": 456,
+      "unit_price": 22.0,
+      "pack_size": 12,
+      "total_price": 10032.0
+    },
+    {
+      "sku": "HARISSA-001",
+      "product_name": "Harissa Cap Bon 200g",
+      "category": "EPICERIE",
+      "quantity_ordered": 456,
+      "unit_price": 8.5,
+      "pack_size": 24,
+      "total_price": 3876.0
+    },
+    {
+      "sku": "OLIVE-001",
+      "product_name": "Olives Vertes 500g",
+      "category": "CONSERVES",
+      "quantity_ordered": 72,
+      "unit_price": 18.0,
+      "pack_size": 12,
+      "total_price": 1296.0
+    },
+    {
+      "sku": "SARDINE-001",
+      "product_name": "Sardines Marocaines 125g",
+      "category": "CONSERVES",
+      "quantity_ordered": 576,
+      "unit_price": 9.0,
+      "pack_size": 48,
+      "total_price": 5184.0
+    },
+    {
+      "sku": "SEL-001",
+      "product_name": "Sel Fin 1kg",
+      "category": "EPICERIE",
+      "quantity_ordered": 100,
+      "unit_price": 4.0,
+      "pack_size": 20,
+      "total_price": 400.0
+    },
+    {
+      "sku": "THE-001",
+      "product_name": "Thé Sultan 200g",
+      "category": "EPICERIE",
+      "quantity_ordered": 360,
+      "unit_price": 18.0,
+      "pack_size": 20,
+      "total_price": 6480.0
+    },
+    {
+      "sku": "VIN-001",
+      "product_name": "Vinaigre Cristal 1L",
+      "category": "EPICERIE",
+      "quantity_ordered": 252,
+      "unit_price": 9.0,
+      "pack_size": 12,
+      "total_price": 2268.0
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "total_quantity": 2272,
+    "total_value": 29536.0,
+    "currency": "MAD"
+  }
+}

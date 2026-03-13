@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+PATES-002,Dari Vermicelles 500g,EPICERIE,330,20,100,6.5,2145.0,paquet
+PATES-001,Dari Couscous Fin 1kg,EPICERIE,50,10,50,11.0,550.0,kg

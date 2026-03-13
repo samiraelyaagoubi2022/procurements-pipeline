@@ -1,0 +1,4 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+HUILE-002,Lesieur Olive Extra 1L,EPICERIE,330,6,36,85.0,28050.0,bouteille
+HUILE-001,Lesieur Cristal Huile 1L,EPICERIE,770,12,72,28.0,21560.0,bouteille
+CONS-001,Lesieur Sardines 125g,CONSERVES,710,50,250,8.5,6035.0,boîte

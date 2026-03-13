@@ -1,0 +1,6 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+TOMATE-001,Concentré Tomate 400g,CONSERVES,980,24,144,12.0,11760.0,boîte
+THE-001,Thé Sultan 200g,EPICERIE,500,20,100,18.0,9000.0,paquet
+HARISSA-001,Harissa Cap Bon 200g,EPICERIE,450,24,144,8.5,3825.0,tube
+VIN-001,Vinaigre Cristal 1L,EPICERIE,230,12,72,9.0,2070.0,bouteille
+SEL-001,Sel Fin 1kg,EPICERIE,390,20,100,4.0,1560.0,kg

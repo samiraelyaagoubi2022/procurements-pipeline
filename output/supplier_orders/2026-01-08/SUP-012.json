@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-012",
+  "supplier_name": "Savola Maroc",
+  "order_date": "2026-01-08",
+  "contact_email": "service@savola.ma",
+  "contact_phone": "+212 522 545 566",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "HUILE-003",
+      "product_name": "Afia Huile Tournesol 2L",
+      "category": "EPICERIE",
+      "quantity_ordered": 102,
+      "unit_price": 48.0,
+      "pack_size": 6,
+      "total_price": 4896.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 102,
+    "total_value": 4896.0,
+    "currency": "MAD"
+  }
+}

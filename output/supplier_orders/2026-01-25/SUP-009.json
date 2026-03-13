@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-009",
+  "supplier_name": "Nestlé Maroc",
+  "order_date": "2026-01-25",
+  "contact_email": "achats@nestle.ma",
+  "contact_phone": "+212 522 212 233",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "CAFE-001",
+      "product_name": "Nescafé Classic 100g",
+      "category": "EPICERIE",
+      "quantity_ordered": 420,
+      "unit_price": 45.0,
+      "pack_size": 12,
+      "total_price": 18900.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 420,
+    "total_value": 18900.0,
+    "currency": "MAD"
+  }
+}

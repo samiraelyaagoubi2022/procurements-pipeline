@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-007",
+  "supplier_name": "Oulmès",
+  "order_date": "2026-01-08",
+  "contact_email": "commandes@oulmes.ma",
+  "contact_phone": "+212 522 990 011",
+  "lead_time_days": 1,
+  "items": [
+    {
+      "sku": "EAU-001",
+      "product_name": "Oulmès Eau Plate 1.5L",
+      "category": "BOISSONS",
+      "quantity_ordered": 60,
+      "unit_price": 5.0,
+      "pack_size": 6,
+      "total_price": 300.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 60,
+    "total_value": 300.0,
+    "currency": "MAD"
+  }
+}

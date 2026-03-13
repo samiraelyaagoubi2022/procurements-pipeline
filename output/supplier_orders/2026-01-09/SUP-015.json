@@ -1,0 +1,70 @@
+{
+  "supplier_id": "SUP-015",
+  "supplier_name": "Maroc Distribution",
+  "order_date": "2026-01-09",
+  "contact_email": "service@marocdist.ma",
+  "contact_phone": "+212 522 878 899",
+  "lead_time_days": 1,
+  "items": [
+    {
+      "sku": "CONF-001",
+      "product_name": "Confiture Aïcha 450g",
+      "category": "EPICERIE",
+      "quantity_ordered": 72,
+      "unit_price": 22.0,
+      "pack_size": 12,
+      "total_price": 1584.0
+    },
+    {
+      "sku": "OLIVE-001",
+      "product_name": "Olives Vertes 500g",
+      "category": "CONSERVES",
+      "quantity_ordered": 360,
+      "unit_price": 18.0,
+      "pack_size": 12,
+      "total_price": 6480.0
+    },
+    {
+      "sku": "SARDINE-001",
+      "product_name": "Sardines Marocaines 125g",
+      "category": "CONSERVES",
+      "quantity_ordered": 768,
+      "unit_price": 9.0,
+      "pack_size": 48,
+      "total_price": 6912.0
+    },
+    {
+      "sku": "SEL-001",
+      "product_name": "Sel Fin 1kg",
+      "category": "EPICERIE",
+      "quantity_ordered": 180,
+      "unit_price": 4.0,
+      "pack_size": 20,
+      "total_price": 720.0
+    },
+    {
+      "sku": "TOMATE-001",
+      "product_name": "Concentré Tomate 400g",
+      "category": "CONSERVES",
+      "quantity_ordered": 624,
+      "unit_price": 12.0,
+      "pack_size": 24,
+      "total_price": 7488.0
+    },
+    {
+      "sku": "VIN-001",
+      "product_name": "Vinaigre Cristal 1L",
+      "category": "EPICERIE",
+      "quantity_ordered": 84,
+      "unit_price": 9.0,
+      "pack_size": 12,
+      "total_price": 756.0
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "total_quantity": 2088,
+    "total_value": 23940.0,
+    "currency": "MAD"
+  }
+}

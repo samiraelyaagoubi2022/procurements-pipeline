@@ -1,0 +1,25 @@
+{
+  "supplier_id": "SUP-013",
+  "supplier_name": "Colgate Palmolive",
+  "order_date": "2026-01-24",
+  "contact_email": "orders@colgate.ma",
+  "contact_phone": "+212 522 656 677",
+  "lead_time_days": 2,
+  "items": [
+    {
+      "sku": "DENT-001",
+      "product_name": "Signal Dentifrice 75ml",
+      "category": "HYGIENE",
+      "quantity_ordered": 504,
+      "unit_price": 18.0,
+      "pack_size": 12,
+      "total_price": 9072.0
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "total_quantity": 504,
+    "total_value": 9072.0,
+    "currency": "MAD"
+  }
+}

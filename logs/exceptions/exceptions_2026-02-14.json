@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-14",
+  "total_exceptions": 1,
+  "exceptions": [
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "HUILE-002",
+      "product_name": "Lesieur Olive Extra 1L",
+      "value": 56100.0,
+      "message": "Valeur élevée: 56,100.00 MAD"
+    }
+  ]
+}

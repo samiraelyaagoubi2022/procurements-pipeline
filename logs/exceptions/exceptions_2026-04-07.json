@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-07",
+  "total_exceptions": 3,
+  "exceptions": [
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "MIEL-001",
+      "product_name": "Miel d'Oranger 500g",
+      "quantity": 1270,
+      "message": "Commande volumineuse: 1,270 unités"
+    },
+    {
+      "type": "LARGE_ORDER",
+      "severity": "WARNING",
+      "sku": "CONF-001",
+      "product_name": "Confiture Aïcha 450g",
+      "quantity": 1110,
+      "message": "Commande volumineuse: 1,110 unités"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "MIEL-001",
+      "product_name": "Miel d'Oranger 500g",
+      "value": 82550.0,
+      "message": "Valeur élevée: 82,550.00 MAD"
+    }
+  ]
+}

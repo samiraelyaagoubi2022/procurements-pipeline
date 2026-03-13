@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+LAIT-001,Centrale Lait Entier 1L,PRODUITS_LAITIERS,190,6,60,8.5,1615.0,litre
+LAIT-002,Centrale Lait Demi-Écrémé 1L,PRODUITS_LAITIERS,60,6,60,8.0,480.0,litre

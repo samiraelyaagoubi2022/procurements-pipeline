@@ -1,0 +1,634 @@
+2026-01-22 15:37:25 | INFO     | orchestrator | ================================================================================
+2026-01-22 15:37:25 | INFO     | orchestrator | 🇲🇦  PIPELINE DE PROCUREMENT - RÉGION DE CASABLANCA
+2026-01-22 15:37:25 | INFO     | orchestrator | ================================================================================
+2026-01-22 15:37:25 | INFO     | orchestrator | 📅 Date d'exécution: 2026-04-07
+2026-01-22 15:37:25 | INFO     | orchestrator | 📦 Nombre de commandes: 700
+2026-01-22 15:37:25 | INFO     | orchestrator | 📁 Répertoire scripts: /app/scripts
+2026-01-22 15:37:25 | INFO     | orchestrator | ================================================================================
+2026-01-22 15:37:25 | INFO     | orchestrator | 
+2026-01-22 15:37:25 | INFO     | orchestrator | 
+🚀 DÉMARRAGE DU PIPELINE COMPLET
+
+2026-01-22 15:37:25 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/01_generate_data.py --date 2026-04-07 --num-orders 700
+2026-01-22 15:37:27 | INFO     | generate | 📅 Date: 2026-04-07
+2026-01-22 15:37:27 | INFO     | generate | 📦 Commandes à générer: 700
+2026-01-22 15:37:27 | INFO     | generate | 
+2026-01-22 15:37:27 | INFO     | generate | 📚 Chargement des données maîtres...
+2026-01-22 15:37:27 | INFO     | generate |    ✓ 39 produits chargés
+2026-01-22 15:37:27 | INFO     | generate |    ✓ 2 entrepôts chargés
+2026-01-22 15:37:27 | INFO     | generate | 
+2026-01-22 15:37:27 | INFO     | generate | 🛒 Génération des commandes...
+2026-01-22 15:37:28 | INFO     | generate |    ✓ 700 commandes générées
+2026-01-22 15:37:28 | INFO     | generate |    ✓ Fichier: data/raw/orders/2026-04-07/orders.json
+2026-01-22 15:37:28 | INFO     | generate | 
+2026-01-22 15:37:28 | INFO     | generate | 📊 Génération des snapshots de stock...
+2026-01-22 15:37:28 | INFO     | generate |    ✓ 78 lignes de stock générées
+2026-01-22 15:37:28 | INFO     | generate |    ✓ Fichier: data/raw/stock/2026-04-07/stock.csv
+2026-01-22 15:37:28 | INFO     | generate | 
+2026-01-22 15:37:28 | INFO     | generate | 📊 STATISTIQUES:
+2026-01-22 15:37:28 | INFO     | generate |    • Commandes: 700
+2026-01-22 15:37:28 | INFO     | generate |    • Magasins: 8
+2026-01-22 15:37:28 | INFO     | generate |    • Items commandés: 4563
+2026-01-22 15:37:28 | INFO     | generate |    • Valeur totale: 920,352.00 MAD
+2026-01-22 15:37:28 | INFO     | generate |    • Lignes de stock: 78
+2026-01-22 15:37:28 | INFO     | generate | 
+2026-01-22 15:37:28 | INFO     | generate | ✅ Génération terminée avec succès
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 📅 Date: 2026-04-07
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 📦 Commandes à générer: 700
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 📚 Chargement des données maîtres...
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate |    ✓ 39 produits chargés
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate |    ✓ 2 entrepôts chargés
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:27 | [32mINFO    [0m | generate | 🛒 Génération des commandes...
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    ✓ 700 commandes générées
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/orders/2026-04-07/orders.json
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | 
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | 📊 Génération des snapshots de stock...
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    ✓ 78 lignes de stock générées
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    ✓ Fichier: data/raw/stock/2026-04-07/stock.csv
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | 
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | 📊 STATISTIQUES:
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    • Commandes: 700
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    • Magasins: 8
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    • Items commandés: 4563
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    • Valeur totale: 920,352.00 MAD
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate |    • Lignes de stock: 78
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | 
+2026-01-22 15:37:29 | INFO     | orchestrator |    2026-01-22 15:37:28 | [32mINFO    [0m | generate | ✅ Génération terminée avec succès
+2026-01-22 15:37:29 | INFO     | orchestrator | ✅ Script terminé: 01_generate_data.py
+2026-01-22 15:37:29 | INFO     | orchestrator | ⏱️ Durée étape 01: 3.38s
+
+2026-01-22 15:37:29 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/03_aggregate_orders.py --date 2026-04-07
+2026-01-22 15:37:30 | INFO     | aggregate | 📊 Agrégation pour la date: 2026-04-07
+2026-01-22 15:37:30 | INFO     | aggregate | 
+2026-01-22 15:37:30 | INFO     | aggregate | ⚠️  IMPORTANT: Ce script EXIGE Trino (conformément au projet)
+2026-01-22 15:37:30 | INFO     | aggregate | 
+2026-01-22 15:37:30 | INFO     | aggregate | 🔌 Connexion à Trino/Presto (REQUIS)...
+2026-01-22 15:37:32 | INFO     | aggregate |    ✓ Connexion Trino établie
+2026-01-22 15:37:32 | INFO     | aggregate | 
+2026-01-22 15:37:32 | INFO     | aggregate | 📦 Conversion JSON → Parquet pour Trino...
+2026-01-22 15:37:32 | INFO     | aggregate | 📁 Préparation des données pour Trino...
+2026-01-22 15:37:32 | INFO     | aggregate |    ✓ Fichier Parquet créé: data/raw/orders/2026-04-07/orders.parquet (4563 lignes)
+2026-01-22 15:37:38 | INFO     | aggregate |    ✓ Parquet copié dans HDFS: /raw/orders/2026-04-07/parquet/orders.parquet
+2026-01-22 15:37:38 | INFO     | aggregate | 
+2026-01-22 15:37:38 | INFO     | aggregate | 🔢 Agrégation via Trino (étape obligatoire)...
+2026-01-22 15:37:38 | INFO     | aggregate |    📊 Création de la table externe orders_2026_04_07...
+2026-01-22 15:37:38 | INFO     | aggregate |    ✓ Table hive.default.orders_2026_04_07 créée
+2026-01-22 15:37:42 | INFO     | aggregate |    ✓ Vérification: 4,563 lignes dans la table
+2026-01-22 15:37:42 | INFO     | aggregate |    🔢 Exécution de l'agrégation SQL via Trino...
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ 39 SKUs agrégés via Trino
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ Agrégation Trino réussie
+2026-01-22 15:37:46 | INFO     | aggregate | 
+2026-01-22 15:37:46 | INFO     | aggregate | 💾 Sauvegarde des résultats...
+2026-01-22 15:37:46 | INFO     | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-04-07.csv
+2026-01-22 15:37:46 | INFO     | aggregate | 
+2026-01-22 15:37:46 | INFO     | aggregate | 📊 STATISTIQUES:
+2026-01-22 15:37:46 | INFO     | aggregate |    • SKUs: 39
+2026-01-22 15:37:46 | INFO     | aggregate |    • Quantité totale: 47,840
+2026-01-22 15:37:46 | INFO     | aggregate |    • Valeur totale: 920,352.00 MAD
+2026-01-22 15:37:46 | INFO     | aggregate | 
+2026-01-22 15:37:46 | INFO     | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | aggregate | ✅ AGRÉGATION TERMINÉE VIA TRINO
+2026-01-22 15:37:46 | INFO     | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | aggregate | 
+2026-01-22 15:37:46 | INFO     | aggregate | 📌 Conformité au projet:
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ Compute Engine: Trino/Presto utilisé
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ Read data from HDFS: Parquet depuis /raw/orders/
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ Execute SQL transformations: Agrégation GROUP BY
+2026-01-22 15:37:46 | INFO     | aggregate |    ✅ Join heterogeneous datasets: Prêt pour jointure stock
+2026-01-22 15:37:46 | INFO     | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:30 | [32mINFO    [0m | aggregate | 📊 Agrégation pour la date: 2026-04-07
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:30 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:30 | [32mINFO    [0m | aggregate | ⚠️  IMPORTANT: Ce script EXIGE Trino (conformément au projet)
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:30 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:30 | [32mINFO    [0m | aggregate | 🔌 Connexion à Trino/Presto (REQUIS)...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:32 | [32mINFO    [0m | aggregate |    ✓ Connexion Trino établie
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:32 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:32 | [32mINFO    [0m | aggregate | 📦 Conversion JSON → Parquet pour Trino...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:32 | [32mINFO    [0m | aggregate | 📁 Préparation des données pour Trino...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:32 | [32mINFO    [0m | aggregate |    ✓ Fichier Parquet créé: data/raw/orders/2026-04-07/orders.parquet (4563 lignes)
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:38 | [32mINFO    [0m | aggregate |    ✓ Parquet copié dans HDFS: /raw/orders/2026-04-07/parquet/orders.parquet
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:38 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:38 | [32mINFO    [0m | aggregate | 🔢 Agrégation via Trino (étape obligatoire)...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:38 | [32mINFO    [0m | aggregate |    📊 Création de la table externe orders_2026_04_07...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:38 | [32mINFO    [0m | aggregate |    ✓ Table hive.default.orders_2026_04_07 créée
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:42 | [32mINFO    [0m | aggregate |    ✓ Vérification: 4,563 lignes dans la table
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:42 | [32mINFO    [0m | aggregate |    🔢 Exécution de l'agrégation SQL via Trino...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ 39 SKUs agrégés via Trino
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ Agrégation Trino réussie
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 💾 Sauvegarde des résultats...
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✓ Fichier: data/processed/aggregated_orders_2026-04-07.csv
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 📊 STATISTIQUES:
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    • SKUs: 39
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    • Quantité totale: 47,840
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    • Valeur totale: 920,352.00 MAD
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | ✅ AGRÉGATION TERMINÉE VIA TRINO
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | 📌 Conformité au projet:
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ Compute Engine: Trino/Presto utilisé
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ Read data from HDFS: Parquet depuis /raw/orders/
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ Execute SQL transformations: Agrégation GROUP BY
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate |    ✅ Join heterogeneous datasets: Prêt pour jointure stock
+2026-01-22 15:37:46 | INFO     | orchestrator |    2026-01-22 15:37:46 | [32mINFO    [0m | aggregate | ================================================================================
+2026-01-22 15:37:46 | INFO     | orchestrator | ✅ Script terminé: 03_aggregate_orders.py
+2026-01-22 15:37:46 | INFO     | orchestrator | ⏱️ Durée étape 02: 17.76s
+
+2026-01-22 15:37:47 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/04_calculate_demand.py --date 2026-04-07
+2026-01-22 15:37:49 | INFO     | calculate | 🧮 Calcul pour la date: 2026-04-07
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 📂 Chargement des données...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 39 SKUs commandés
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 78 lignes de stock
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 🔌 Connexion à PostgreSQL pour les données maîtres...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ Connexion établie
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 39 produits chargés
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 📊 Agrégation du stock par SKU...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 39 SKUs en stock
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 🔗 Jointures des données...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 39 SKUs après jointures
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 🧮 Calcul de la demande nette...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ Demandes calculées
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 🔍 Filtrage des SKUs à commander...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ 31 SKUs à commander
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 💾 Sauvegarde des résultats...
+2026-01-22 15:37:49 | INFO     | calculate |    ✓ Fichier: /app/data/processed/net_demand_2026-04-07.csv
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | 📊 STATISTIQUES:
+2026-01-22 15:37:49 | INFO     | calculate |    • SKUs à commander: 31
+2026-01-22 15:37:49 | INFO     | calculate |    • Quantité totale: 17,050
+2026-01-22 15:37:49 | INFO     | calculate |    • Valeur totale: 371,820.00 MAD
+2026-01-22 15:37:49 | INFO     | calculate |    • Fournisseurs: 13
+2026-01-22 15:37:49 | INFO     | calculate | 
+2026-01-22 15:37:49 | INFO     | calculate | ✅ Calcul terminé avec succès
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 🧮 Calcul pour la date: 2026-04-07
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 📂 Chargement des données...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 39 SKUs commandés
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 78 lignes de stock
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 🔌 Connexion à PostgreSQL pour les données maîtres...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ Connexion établie
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 39 produits chargés
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 📊 Agrégation du stock par SKU...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 39 SKUs en stock
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 🔗 Jointures des données...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 39 SKUs après jointures
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 🧮 Calcul de la demande nette...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ Demandes calculées
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 🔍 Filtrage des SKUs à commander...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ 31 SKUs à commander
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 💾 Sauvegarde des résultats...
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    ✓ Fichier: /app/data/processed/net_demand_2026-04-07.csv
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 📊 STATISTIQUES:
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    • SKUs à commander: 31
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    • Quantité totale: 17,050
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    • Valeur totale: 371,820.00 MAD
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate |    • Fournisseurs: 13
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | 
+2026-01-22 15:37:49 | INFO     | orchestrator |    2026-01-22 15:37:49 | [32mINFO    [0m | calculate | ✅ Calcul terminé avec succès
+2026-01-22 15:37:49 | INFO     | orchestrator | ✅ Script terminé: 04_calculate_demand.py
+2026-01-22 15:37:49 | INFO     | orchestrator | ⏱️ Durée étape 03: 2.61s
+
+2026-01-22 15:37:49 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/05_generate_orders.py --date 2026-04-07
+2026-01-22 15:37:51 | INFO     | generate_orders | 📝 Génération pour la date: 2026-04-07
+2026-01-22 15:37:51 | INFO     | generate_orders | 
+2026-01-22 15:37:51 | INFO     | generate_orders | 📂 Chargement de la demande nette...
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ 31 lignes chargées
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ 16 fournisseurs
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-015 - Maroc Distribution
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 8 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 141,155.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-015_Maroc_Distribution_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-014 - Procter & Gamble Maroc
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 1 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 30,400.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-014_Procter_&_Gamble_Maroc_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-003 - Lesieur Cristal
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 3 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 55,645.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-003_Lesieur_Cristal_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-008 - Unilever Maghreb
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 2 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 29,960.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-008_Unilever_Maghreb_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-011 - Agropur
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 1 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 18,260.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-011_Agropur_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-009 - Nestlé Maroc
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 3 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 33,080.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-009_Nestlé_Maroc_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-013 - Colgate Palmolive
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 1 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 14,040.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-013_Colgate_Palmolive_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-004 - Cosumar
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 1 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 7,110.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-004_Cosumar_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-001 - Centrale Laitière
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 2 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 8,360.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-001_Centrale_Laitière_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-005 - Dari Couspate
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 3 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 12,485.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-005_Dari_Couspate_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:52 | INFO     | generate_orders |    ✓ SUP-007 - Oulmès
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 1 produits
+2026-01-22 15:37:52 | INFO     | generate_orders |       • 5,395.00 MAD
+2026-01-22 15:37:52 | INFO     | generate_orders |       • ORDER_SUP-007_Oulmès_2026-04-07.csv
+2026-01-22 15:37:52 | INFO     | generate_orders | 
+2026-01-22 15:37:53 | INFO     | generate_orders |    ✓ SUP-006 - SBM Coca-Cola
+2026-01-22 15:37:53 | INFO     | generate_orders |       • 3 produits
+2026-01-22 15:37:53 | INFO     | generate_orders |       • 8,170.00 MAD
+2026-01-22 15:37:53 | INFO     | generate_orders |       • ORDER_SUP-006_SBM_Coca-Cola_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | generate_orders | 
+2026-01-22 15:37:53 | INFO     | generate_orders |    ✓ SUP-002 - Bimo
+2026-01-22 15:37:53 | INFO     | generate_orders |       • 2 produits
+2026-01-22 15:37:53 | INFO     | generate_orders |       • 7,760.00 MAD
+2026-01-22 15:37:53 | INFO     | generate_orders |       • ORDER_SUP-002_Bimo_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | generate_orders | 
+2026-01-22 15:37:53 | INFO     | generate_orders | 📊 RÉSUMÉ:
+2026-01-22 15:37:53 | INFO     | generate_orders |    • Commandes générées: 13
+2026-01-22 15:37:53 | INFO     | generate_orders |    • Valeur totale: 371,820.00 MAD
+2026-01-22 15:37:53 | INFO     | generate_orders |    • Répertoire: /app/output/supplier_orders/2026-04-07
+2026-01-22 15:37:53 | INFO     | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:51 | [32mINFO    [0m | generate_orders | 📝 Génération pour la date: 2026-04-07
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:51 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:51 | [32mINFO    [0m | generate_orders | 📂 Chargement de la demande nette...
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ 31 lignes chargées
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 📂 Chargement des fournisseurs...
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ 16 fournisseurs
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 📄 Génération des fichiers par fournisseur...
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-015 - Maroc Distribution
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 8 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 141,155.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-015_Maroc_Distribution_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-014 - Procter & Gamble Maroc
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 1 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 30,400.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-014_Procter_&_Gamble_Maroc_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-003 - Lesieur Cristal
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 3 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 55,645.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-003_Lesieur_Cristal_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-008 - Unilever Maghreb
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 2 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 29,960.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-008_Unilever_Maghreb_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-011 - Agropur
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 1 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 18,260.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-011_Agropur_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-009 - Nestlé Maroc
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 3 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 33,080.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-009_Nestlé_Maroc_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-013 - Colgate Palmolive
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 1 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 14,040.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-013_Colgate_Palmolive_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-004 - Cosumar
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 1 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 7,110.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-004_Cosumar_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-001 - Centrale Laitière
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 2 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 8,360.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-001_Centrale_Laitière_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-005 - Dari Couspate
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 3 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 12,485.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-005_Dari_Couspate_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |    ✓ SUP-007 - Oulmès
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 1 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • 5,395.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-007_Oulmès_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:52 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |    ✓ SUP-006 - SBM Coca-Cola
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • 3 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • 8,170.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-006_SBM_Coca-Cola_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |    ✓ SUP-002 - Bimo
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • 2 produits
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • 7,760.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |       • ORDER_SUP-002_Bimo_2026-04-07.csv
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders | 📊 RÉSUMÉ:
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |    • Commandes générées: 13
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |    • Valeur totale: 371,820.00 MAD
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders |    • Répertoire: /app/output/supplier_orders/2026-04-07
+2026-01-22 15:37:53 | INFO     | orchestrator |    2026-01-22 15:37:53 | [32mINFO    [0m | generate_orders | 
+2026-01-22 15:37:53 | INFO     | orchestrator | ✅ Script terminé: 05_generate_orders.py
+2026-01-22 15:37:53 | INFO     | orchestrator | ⏱️ Durée étape 04: 4.01s
+
+2026-01-22 15:37:53 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/06_check_exceptions.py --date 2026-04-07
+2026-01-22 15:37:55 | INFO     | exceptions | 🔍 Vérification pour la date: 2026-04-07
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 📂 31 produits à commander
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-22 15:37:55 | WARNING  | exceptions |    ⚠️  2 commande(s) > 1000 unités
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-22 15:37:55 | WARNING  | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-22 15:37:55 | INFO     | exceptions |    ✓ Aucune rupture critique
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 🔎 Vérification des stocks bas...
+2026-01-22 15:37:55 | INFO     | exceptions |    ✓ Aucun stock critique
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-22 15:37:55 | INFO     | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-04-07.json
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-22 15:37:55 | INFO     | exceptions |    • Total: 3
+2026-01-22 15:37:55 | INFO     | exceptions |    • WARNING: 3
+2026-01-22 15:37:55 | INFO     | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 🔍 Vérification pour la date: 2026-04-07
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 📂 31 produits à commander
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 🔎 Vérification des commandes volumineuses...
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [33mWARNING [0m | exceptions |    ⚠️  2 commande(s) > 1000 unités
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 🔎 Vérification des valeurs élevées...
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [33mWARNING [0m | exceptions |    ⚠️  1 commande(s) > 50,000 MAD
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 🔎 Vérification des ruptures critiques...
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions |    ✓ Aucune rupture critique
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 🔎 Vérification des stocks bas...
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions |    ✓ Aucun stock critique
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 💾 Sauvegarde du rapport d'exceptions...
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions |    ✓ Rapport: logs/exceptions/exceptions_2026-04-07.json
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 📊 RÉSUMÉ DES EXCEPTIONS:
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions |    • Total: 3
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions |    • WARNING: 3
+2026-01-22 15:37:55 | INFO     | orchestrator |    2026-01-22 15:37:55 | [32mINFO    [0m | exceptions | 
+2026-01-22 15:37:55 | INFO     | orchestrator | ✅ Script terminé: 06_check_exceptions.py
+2026-01-22 15:37:55 | INFO     | orchestrator | ⏱️ Durée étape 05: 2.31s
+
+2026-01-22 15:37:55 | INFO     | orchestrator | 🚀 Exécution: /usr/local/bin/python3 /app/scripts/02_ingest_to_hdfs.py --date 2026-04-07
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 📦 Ingestion HDFS COMPLÈTE pour la date: 2026-04-07
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 📋 Conformité au projet:
+2026-01-22 15:37:57 | INFO     | hdfs_loader |    ✓ /raw/orders/ + /raw/stock/
+2026-01-22 15:37:57 | INFO     | hdfs_loader |    ✓ /processed/aggregated_orders/ + /processed/net_demand/
+2026-01-22 15:37:57 | INFO     | hdfs_loader |    ✓ /output/supplier_orders/
+2026-01-22 15:37:57 | INFO     | hdfs_loader |    ✓ /logs/exceptions/
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 
+2026-01-22 15:37:57 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 📂 SECTION 1/5 : Fichiers bruts (raw/)
+2026-01-22 15:37:57 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 
+2026-01-22 15:37:57 | INFO     | hdfs_loader | 📤 Upload: orders.json (fichier brut)...
+2026-01-22 15:37:58 | INFO     | hdfs_loader |    ✅ /raw/orders/2026-04-07/orders.json (0.5 MB)
+2026-01-22 15:37:58 | INFO     | hdfs_loader | 
+2026-01-22 15:37:58 | INFO     | hdfs_loader | 📤 Upload: orders.parquet (format optimisé)...
+2026-01-22 15:37:58 | INFO     | hdfs_loader |    ✅ /raw/orders/2026-04-07/parquet/orders.parquet (22.3 KB)
+2026-01-22 15:37:58 | INFO     | hdfs_loader | 
+2026-01-22 15:37:58 | INFO     | hdfs_loader | 📤 Upload: stock.csv (snapshot de stock)...
+2026-01-22 15:38:00 | INFO     | hdfs_loader |    ✅ /raw/stock/2026-04-07/stock.csv (3.0 KB)
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 
+2026-01-22 15:38:00 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 📂 SECTION 2/5 : Fichiers traités (processed/)
+2026-01-22 15:38:00 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 📤 Upload: aggregated_orders.csv...
+2026-01-22 15:38:00 | INFO     | hdfs_loader |    ✅ /processed/aggregated_orders/2026-04-07.csv (1.8 KB)
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 
+2026-01-22 15:38:00 | INFO     | hdfs_loader | 📤 Upload: net_demand.csv...
+2026-01-22 15:38:01 | INFO     | hdfs_loader |    ✅ /processed/net_demand/2026-04-07.csv (2.8 KB)
+2026-01-22 15:38:01 | INFO     | hdfs_loader | 
+2026-01-22 15:38:01 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:01 | INFO     | hdfs_loader | 📂 SECTION 3/5 : Commandes fournisseurs (output/)
+2026-01-22 15:38:01 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:01 | INFO     | hdfs_loader | 
+2026-01-22 15:38:01 | INFO     | hdfs_loader | 📤 Upload des commandes fournisseurs...
+2026-01-22 15:38:01 | INFO     | hdfs_loader |    ✅ ORDER_SUP-001_Centrale_Laitière_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:01 | INFO     | hdfs_loader |    ✅ ORDER_SUP-002_Bimo_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:01 | INFO     | hdfs_loader |    ✅ ORDER_SUP-003_Lesieur_Cristal_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:02 | INFO     | hdfs_loader |    ✅ ORDER_SUP-004_Cosumar_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:02 | INFO     | hdfs_loader |    ✅ ORDER_SUP-005_Dari_Couspate_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:02 | INFO     | hdfs_loader |    ✅ ORDER_SUP-006_SBM_Coca-Cola_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:03 | INFO     | hdfs_loader |    ✅ ORDER_SUP-007_Oulmès_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:03 | INFO     | hdfs_loader |    ✅ ORDER_SUP-008_Unilever_Maghreb_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:03 | INFO     | hdfs_loader |    ✅ ORDER_SUP-009_Nestlé_Maroc_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:04 | INFO     | hdfs_loader |    ✅ ORDER_SUP-010_Bel_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:04 | INFO     | hdfs_loader |    ✅ ORDER_SUP-011_Agropur_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:05 | INFO     | hdfs_loader |    ✅ ORDER_SUP-012_Savola_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:05 | INFO     | hdfs_loader |    ✅ ORDER_SUP-013_Colgate_Palmolive_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:05 | INFO     | hdfs_loader |    ✅ ORDER_SUP-014_Procter_&_Gamble_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ ORDER_SUP-015_Maroc_Distribution_2026-04-07.csv (0.6 KB)
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    📊 Total: 15 fichiers fournisseurs uploadés
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 📂 SECTION 4/5 : Logs et exceptions (logs/)
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 📤 Upload: exceptions.json...
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /logs/exceptions/2026-04-07.json (0.7 KB)
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 📂 SECTION 5/5 : Vérification de la structure HDFS
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 🔍 Vérification des répertoires créés dans HDFS...
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /raw/orders/2026-04-07
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /raw/stock/2026-04-07
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /processed/aggregated_orders
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /processed/net_demand
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /output/supplier_orders/2026-04-07
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ✅ /logs/exceptions
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 📊 RÉSUMÉ DE L'INGESTION HDFS
+2026-01-22 15:38:06 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:06 | INFO     | hdfs_loader | 
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    📤 Fichiers uploadés: 21
+2026-01-22 15:38:06 | INFO     | hdfs_loader |    ❌ Fichiers manquants: 0
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    💾 Taille totale: 0.50 MB
+2026-01-22 15:38:07 | INFO     | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | hdfs_loader | ✅ INGESTION HDFS TERMINÉE
+2026-01-22 15:38:07 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | hdfs_loader | 📂 Structure HDFS complète conforme au projet:
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /raw/orders/YYYY-MM-DD/
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /raw/stock/YYYY-MM-DD/
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /processed/aggregated_orders/
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /processed/net_demand/
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /output/supplier_orders/
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    ✅ /logs/exceptions/
+2026-01-22 15:38:07 | INFO     | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | hdfs_loader | 🔍 Vérifier dans l'interface HDFS:
+2026-01-22 15:38:07 | INFO     | hdfs_loader |    http://localhost:9870/explorer.html
+2026-01-22 15:38:07 | INFO     | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 📦 Ingestion HDFS COMPLÈTE pour la date: 2026-04-07
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 📋 Conformité au projet:
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader |    ✓ /raw/orders/ + /raw/stock/
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader |    ✓ /processed/aggregated_orders/ + /processed/net_demand/
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader |    ✓ /output/supplier_orders/
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader |    ✓ /logs/exceptions/
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 📂 SECTION 1/5 : Fichiers bruts (raw/)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:57 | [32mINFO    [0m | hdfs_loader | 📤 Upload: orders.json (fichier brut)...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/orders/2026-04-07/orders.json (0.5 MB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader | 📤 Upload: orders.parquet (format optimisé)...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/orders/2026-04-07/parquet/orders.parquet (22.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:37:58 | [32mINFO    [0m | hdfs_loader | 📤 Upload: stock.csv (snapshot de stock)...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/stock/2026-04-07/stock.csv (3.0 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 📂 SECTION 2/5 : Fichiers traités (processed/)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 📤 Upload: aggregated_orders.csv...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/aggregated_orders/2026-04-07.csv (1.8 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:00 | [32mINFO    [0m | hdfs_loader | 📤 Upload: net_demand.csv...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/net_demand/2026-04-07.csv (2.8 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | 📂 SECTION 3/5 : Commandes fournisseurs (output/)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader | 📤 Upload des commandes fournisseurs...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-001_Centrale_Laitière_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-002_Bimo_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:01 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-003_Lesieur_Cristal_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:02 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-004_Cosumar_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:02 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-005_Dari_Couspate_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:02 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-006_SBM_Coca-Cola_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:03 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-007_Oulmès_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:03 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-008_Unilever_Maghreb_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:03 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-009_Nestlé_Maroc_2026-04-07.csv (0.3 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:04 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-010_Bel_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:04 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-011_Agropur_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:05 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-012_Savola_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:05 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-013_Colgate_Palmolive_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:05 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-014_Procter_&_Gamble_Maroc_2026-04-07.csv (0.2 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ ORDER_SUP-015_Maroc_Distribution_2026-04-07.csv (0.6 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    📊 Total: 15 fichiers fournisseurs uploadés
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 📂 SECTION 4/5 : Logs et exceptions (logs/)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 📤 Upload: exceptions.json...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /logs/exceptions/2026-04-07.json (0.7 KB)
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 📂 SECTION 5/5 : Vérification de la structure HDFS
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 🔍 Vérification des répertoires créés dans HDFS...
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/orders/2026-04-07
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/stock/2026-04-07
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/aggregated_orders
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/net_demand
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /output/supplier_orders/2026-04-07
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ✅ /logs/exceptions
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 📊 RÉSUMÉ DE L'INGESTION HDFS
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    📤 Fichiers uploadés: 21
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:06 | [32mINFO    [0m | hdfs_loader |    ❌ Fichiers manquants: 0
+2026-01-22 15:38:07 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    💾 Taille totale: 0.50 MB
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | ✅ INGESTION HDFS TERMINÉE
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | 📂 Structure HDFS complète conforme au projet:
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/orders/YYYY-MM-DD/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /raw/stock/YYYY-MM-DD/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/aggregated_orders/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /processed/net_demand/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /output/supplier_orders/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    ✅ /logs/exceptions/
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | 
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | 🔍 Vérifier dans l'interface HDFS:
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader |    http://localhost:9870/explorer.html
+2026-01-22 15:38:08 | INFO     | orchestrator |    2026-01-22 15:38:07 | [32mINFO    [0m | hdfs_loader | ================================================================================
+2026-01-22 15:38:08 | INFO     | orchestrator | ✅ Script terminé: 02_ingest_to_hdfs.py
+2026-01-22 15:38:08 | INFO     | orchestrator | ⏱️ Durée étape 06: 12.38s
+
+2026-01-22 15:38:08 | INFO     | orchestrator | ================================================================================
+2026-01-22 15:38:08 | INFO     | orchestrator | ✅ PIPELINE TERMINÉ AVEC SUCCÈS
+2026-01-22 15:38:08 | INFO     | orchestrator | ================================================================================
+2026-01-22 15:38:08 | INFO     | orchestrator | ⏱️  Durée totale: 42.46 secondes
+2026-01-22 15:38:08 | INFO     | orchestrator | 📅 Date d'exécution: 2026-04-07
+2026-01-22 15:38:08 | INFO     | orchestrator | 📦 Commandes traitées: 700
+2026-01-22 15:38:08 | INFO     | orchestrator | 🕐 Heure de fin: 2026-01-22 15:38:08
+2026-01-22 15:38:08 | INFO     | orchestrator | 
+2026-01-22 15:38:08 | INFO     | orchestrator | 📂 Structure HDFS complète:
+2026-01-22 15:38:08 | INFO     | orchestrator |    ✅ /raw/orders/ + /raw/stock/
+2026-01-22 15:38:08 | INFO     | orchestrator |    ✅ /processed/aggregated_orders/ + /processed/net_demand/
+2026-01-22 15:38:08 | INFO     | orchestrator |    ✅ /output/supplier_orders/
+2026-01-22 15:38:08 | INFO     | orchestrator |    ✅ /logs/exceptions/
+2026-01-22 15:38:08 | INFO     | orchestrator | ================================================================================
+

@@ -1,0 +1,46 @@
+{
+  "date": "2026-01-20",
+  "total_exceptions": 5,
+  "exceptions": [
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SODA-002",
+      "product_name": "Produit 31",
+      "value": 66000.0,
+      "message": "Valeur élevée: 66,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "EAU-002",
+      "product_name": "Produit 11",
+      "value": 58000.0,
+      "message": "Valeur élevée: 58,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "DENT-001",
+      "product_name": "Produit 9",
+      "value": 57000.0,
+      "message": "Valeur élevée: 57,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SARDINE-001",
+      "product_name": "Produit 26",
+      "value": 56000.0,
+      "message": "Valeur élevée: 56,000.00 MAD"
+    },
+    {
+      "type": "HIGH_VALUE",
+      "severity": "WARNING",
+      "sku": "SODA-001",
+      "product_name": "Produit 30",
+      "value": 54000.0,
+      "message": "Valeur élevée: 54,000.00 MAD"
+    }
+  ]
+}

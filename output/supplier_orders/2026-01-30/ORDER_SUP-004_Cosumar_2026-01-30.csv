@@ -1,0 +1,3 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+SUCRE-002,Cosumar Morceaux 1kg,EPICERIE,740,20,100,10.0,7400.0,kg
+SUCRE-001,Cosumar Sucre Blanc 1kg,EPICERIE,250,20,100,9.0,2250.0,kg

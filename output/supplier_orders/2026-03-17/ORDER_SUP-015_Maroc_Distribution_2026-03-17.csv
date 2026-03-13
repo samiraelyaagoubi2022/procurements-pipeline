@@ -1,0 +1,6 @@
+sku,product_name,category,quantity_ordered,pack_size,moq,unit_price,line_total,unit_of_measure
+THE-001,Thé Sultan 200g,EPICERIE,420,20,100,18.0,7560.0,paquet
+OLIVE-001,Olives Vertes 500g,CONSERVES,420,12,72,18.0,7560.0,bocal
+TOMATE-001,Concentré Tomate 400g,CONSERVES,360,24,144,12.0,4320.0,boîte
+SEL-001,Sel Fin 1kg,EPICERIE,220,20,100,4.0,880.0,kg
+VIN-001,Vinaigre Cristal 1L,EPICERIE,70,12,72,9.0,630.0,bouteille
