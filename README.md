@@ -120,7 +120,4 @@ python scripts/run_pipeline.py
 | Python | 3.8+ |
 | Docker | 20.10+ |
 
----
 
-## 👥 Auteur
-**Samira EL YAAGOUBI**  
